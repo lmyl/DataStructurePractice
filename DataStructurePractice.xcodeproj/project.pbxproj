@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080FFF00206CB00100531313 /* LCBChapterOneExampleThirteen.c in Sources */ = {isa = PBXBuildFile; fileRef = 080FFEFF206CB00100531313 /* LCBChapterOneExampleThirteen.c */; };
+		080FFF03206CB82200531313 /* LCBChapterOneMachineExperimentOne.c in Sources */ = {isa = PBXBuildFile; fileRef = 080FFF02206CB82200531313 /* LCBChapterOneMachineExperimentOne.c */; };
+		080FFF06206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c in Sources */ = {isa = PBXBuildFile; fileRef = 080FFF05206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c */; };
+		080FFF09206CC10900531313 /* LCBChapterOneMachineExperimentThree.c in Sources */ = {isa = PBXBuildFile; fileRef = 080FFF08206CC10900531313 /* LCBChapterOneMachineExperimentThree.c */; };
 		088FA6C6206A057B007D71C6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 088FA6C5206A057B007D71C6 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		080FFEFE206CB00100531313 /* LCBChapterOneExampleThirteen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterOneExampleThirteen.h; sourceTree = "<group>"; };
+		080FFEFF206CB00100531313 /* LCBChapterOneExampleThirteen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterOneExampleThirteen.c; sourceTree = "<group>"; };
+		080FFF01206CB82200531313 /* LCBChapterOneMachineExperimentOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterOneMachineExperimentOne.h; sourceTree = "<group>"; };
+		080FFF02206CB82200531313 /* LCBChapterOneMachineExperimentOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterOneMachineExperimentOne.c; sourceTree = "<group>"; };
+		080FFF04206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterOneMachineExperimentTwo.h; sourceTree = "<group>"; };
+		080FFF05206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterOneMachineExperimentTwo.c; sourceTree = "<group>"; };
+		080FFF07206CC10900531313 /* LCBChapterOneMachineExperimentThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterOneMachineExperimentThree.h; sourceTree = "<group>"; };
+		080FFF08206CC10900531313 /* LCBChapterOneMachineExperimentThree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterOneMachineExperimentThree.c; sourceTree = "<group>"; };
 		088FA6C2206A057B007D71C6 /* DataStructurePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructurePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		088FA6C5206A057B007D71C6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				088FA6C5206A057B007D71C6 /* main.c */,
+				080FFEFE206CB00100531313 /* LCBChapterOneExampleThirteen.h */,
+				080FFEFF206CB00100531313 /* LCBChapterOneExampleThirteen.c */,
+				080FFF01206CB82200531313 /* LCBChapterOneMachineExperimentOne.h */,
+				080FFF02206CB82200531313 /* LCBChapterOneMachineExperimentOne.c */,
+				080FFF04206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.h */,
+				080FFF05206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c */,
+				080FFF07206CC10900531313 /* LCBChapterOneMachineExperimentThree.h */,
+				080FFF08206CC10900531313 /* LCBChapterOneMachineExperimentThree.c */,
 			);
 			path = DataStructurePractice;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				080FFF00206CB00100531313 /* LCBChapterOneExampleThirteen.c in Sources */,
+				080FFF09206CC10900531313 /* LCBChapterOneMachineExperimentThree.c in Sources */,
 				088FA6C6206A057B007D71C6 /* main.c in Sources */,
+				080FFF06206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c in Sources */,
+				080FFF03206CB82200531313 /* LCBChapterOneMachineExperimentOne.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
