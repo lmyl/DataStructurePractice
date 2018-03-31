@@ -7,6 +7,7 @@
 //
 
 #include "LCBChapterOneMachineExperimentOne.h"
+#include <math.h>
 
 //输出所有小于number的质数,number为一个大于2的正整数
 //要求：1.每行输出10个质数  2.尽可能采用最优算法

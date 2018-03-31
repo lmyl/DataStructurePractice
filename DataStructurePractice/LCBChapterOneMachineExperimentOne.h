@@ -11,7 +11,6 @@
 
 #include <stdio.h>
 
-int judgment(int number);
 void outputPrimeNumber(int number);
-
+int judgment(int number);
 #endif /* LCBChapterOneMachineExperimentOne_h */
