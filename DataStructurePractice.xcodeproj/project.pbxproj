@@ -11,9 +11,13 @@
 		080FFF03206CB82200531313 /* LCBChapterOneMachineExperimentOne.c in Sources */ = {isa = PBXBuildFile; fileRef = 080FFF02206CB82200531313 /* LCBChapterOneMachineExperimentOne.c */; };
 		080FFF06206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c in Sources */ = {isa = PBXBuildFile; fileRef = 080FFF05206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c */; };
 		080FFF09206CC10900531313 /* LCBChapterOneMachineExperimentThree.c in Sources */ = {isa = PBXBuildFile; fileRef = 080FFF08206CC10900531313 /* LCBChapterOneMachineExperimentThree.c */; };
+		08272B6C20709EAC00871D68 /* LCBChapterTwoExampleFour.c in Sources */ = {isa = PBXBuildFile; fileRef = 08272B6B20709EAC00871D68 /* LCBChapterTwoExampleFour.c */; };
+		08272B722070C5FA00871D68 /* LCBChapterTwoLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 08272B712070C5FA00871D68 /* LCBChapterTwoLinkList.c */; };
+		08272B752070C8D800871D68 /* LCBChapterTwoDLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 08272B742070C8D800871D68 /* LCBChapterTwoDLinkList.c */; };
 		088FA6C6206A057B007D71C6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 088FA6C5206A057B007D71C6 /* main.c */; };
 		089FC2C9206F52F600202210 /* WDChapterOneMindExtend.c in Sources */ = {isa = PBXBuildFile; fileRef = 089FC2C8206F52F600202210 /* WDChapterOneMindExtend.c */; };
 		089FC2CC206F581100202210 /* LCBChapterTwoSqList.c in Sources */ = {isa = PBXBuildFile; fileRef = 089FC2CB206F581100202210 /* LCBChapterTwoSqList.c */; };
+		08CEA17A20708B1C0011DDD7 /* LCBChapterTwoExampleThree.c in Sources */ = {isa = PBXBuildFile; fileRef = 08CEA17920708B1C0011DDD7 /* LCBChapterTwoExampleThree.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,12 +41,20 @@
 		080FFF05206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterOneMachineExperimentTwo.c; sourceTree = "<group>"; };
 		080FFF07206CC10900531313 /* LCBChapterOneMachineExperimentThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterOneMachineExperimentThree.h; sourceTree = "<group>"; };
 		080FFF08206CC10900531313 /* LCBChapterOneMachineExperimentThree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterOneMachineExperimentThree.c; sourceTree = "<group>"; };
+		08272B6A20709EAC00871D68 /* LCBChapterTwoExampleFour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterTwoExampleFour.h; sourceTree = "<group>"; };
+		08272B6B20709EAC00871D68 /* LCBChapterTwoExampleFour.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoExampleFour.c; sourceTree = "<group>"; };
+		08272B702070C5FA00871D68 /* LCBChapterTwoLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterTwoLinkList.h; sourceTree = "<group>"; };
+		08272B712070C5FA00871D68 /* LCBChapterTwoLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoLinkList.c; sourceTree = "<group>"; };
+		08272B732070C8D800871D68 /* LCBChapterTwoDLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterTwoDLinkList.h; sourceTree = "<group>"; };
+		08272B742070C8D800871D68 /* LCBChapterTwoDLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoDLinkList.c; sourceTree = "<group>"; };
 		088FA6C2206A057B007D71C6 /* DataStructurePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructurePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		088FA6C5206A057B007D71C6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		089FC2C7206F52F600202210 /* WDChapterOneMindExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterOneMindExtend.h; sourceTree = "<group>"; };
 		089FC2C8206F52F600202210 /* WDChapterOneMindExtend.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterOneMindExtend.c; sourceTree = "<group>"; };
 		089FC2CA206F581100202210 /* LCBChapterTwoSqList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterTwoSqList.h; sourceTree = "<group>"; };
 		089FC2CB206F581100202210 /* LCBChapterTwoSqList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoSqList.c; sourceTree = "<group>"; };
+		08CEA17820708B1C0011DDD7 /* LCBChapterTwoExampleThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterTwoExampleThree.h; sourceTree = "<group>"; };
+		08CEA17920708B1C0011DDD7 /* LCBChapterTwoExampleThree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoExampleThree.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08272B6D20709EB500871D68 /* LCBChapterTwo */ = {
+			isa = PBXGroup;
+			children = (
+				089FC2CA206F581100202210 /* LCBChapterTwoSqList.h */,
+				089FC2CB206F581100202210 /* LCBChapterTwoSqList.c */,
+				08CEA17820708B1C0011DDD7 /* LCBChapterTwoExampleThree.h */,
+				08CEA17920708B1C0011DDD7 /* LCBChapterTwoExampleThree.c */,
+				08272B6A20709EAC00871D68 /* LCBChapterTwoExampleFour.h */,
+				08272B6B20709EAC00871D68 /* LCBChapterTwoExampleFour.c */,
+				08272B702070C5FA00871D68 /* LCBChapterTwoLinkList.h */,
+				08272B712070C5FA00871D68 /* LCBChapterTwoLinkList.c */,
+				08272B732070C8D800871D68 /* LCBChapterTwoDLinkList.h */,
+				08272B742070C8D800871D68 /* LCBChapterTwoDLinkList.c */,
+			);
+			path = LCBChapterTwo;
+			sourceTree = "<group>";
+		};
+		08272B6E20709ED900871D68 /* LCBChapterOne */ = {
+			isa = PBXGroup;
+			children = (
+				080FFEFE206CB00100531313 /* LCBChapterOneExampleThirteen.h */,
+				080FFEFF206CB00100531313 /* LCBChapterOneExampleThirteen.c */,
+				080FFF01206CB82200531313 /* LCBChapterOneMachineExperimentOne.h */,
+				080FFF02206CB82200531313 /* LCBChapterOneMachineExperimentOne.c */,
+				080FFF04206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.h */,
+				080FFF05206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c */,
+				080FFF07206CC10900531313 /* LCBChapterOneMachineExperimentThree.h */,
+				080FFF08206CC10900531313 /* LCBChapterOneMachineExperimentThree.c */,
+			);
+			path = LCBChapterOne;
+			sourceTree = "<group>";
+		};
+		08272B6F20709F0200871D68 /* WDChapterOne */ = {
+			isa = PBXGroup;
+			children = (
+				089FC2C7206F52F600202210 /* WDChapterOneMindExtend.h */,
+				089FC2C8206F52F600202210 /* WDChapterOneMindExtend.c */,
+			);
+			path = WDChapterOne;
+			sourceTree = "<group>";
+		};
 		088FA6B9206A057B007D71C6 = {
 			isa = PBXGroup;
 			children = (
@@ -76,18 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				088FA6C5206A057B007D71C6 /* main.c */,
-				080FFEFE206CB00100531313 /* LCBChapterOneExampleThirteen.h */,
-				080FFEFF206CB00100531313 /* LCBChapterOneExampleThirteen.c */,
-				080FFF01206CB82200531313 /* LCBChapterOneMachineExperimentOne.h */,
-				080FFF02206CB82200531313 /* LCBChapterOneMachineExperimentOne.c */,
-				080FFF04206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.h */,
-				080FFF05206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c */,
-				080FFF07206CC10900531313 /* LCBChapterOneMachineExperimentThree.h */,
-				080FFF08206CC10900531313 /* LCBChapterOneMachineExperimentThree.c */,
-				089FC2C7206F52F600202210 /* WDChapterOneMindExtend.h */,
-				089FC2C8206F52F600202210 /* WDChapterOneMindExtend.c */,
-				089FC2CA206F581100202210 /* LCBChapterTwoSqList.h */,
-				089FC2CB206F581100202210 /* LCBChapterTwoSqList.c */,
+				08272B6E20709ED900871D68 /* LCBChapterOne */,
+				08272B6F20709F0200871D68 /* WDChapterOne */,
+				08272B6D20709EB500871D68 /* LCBChapterTwo */,
 			);
 			path = DataStructurePractice;
 			sourceTree = "<group>";
@@ -118,7 +162,7 @@
 		088FA6BA206A057B007D71C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = LY;
 				TargetAttributes = {
 					088FA6C1206A057B007D71C6 = {
@@ -151,9 +195,13 @@
 			files = (
 				080FFF00206CB00100531313 /* LCBChapterOneExampleThirteen.c in Sources */,
 				080FFF09206CC10900531313 /* LCBChapterOneMachineExperimentThree.c in Sources */,
+				08272B722070C5FA00871D68 /* LCBChapterTwoLinkList.c in Sources */,
+				08CEA17A20708B1C0011DDD7 /* LCBChapterTwoExampleThree.c in Sources */,
 				088FA6C6206A057B007D71C6 /* main.c in Sources */,
+				08272B752070C8D800871D68 /* LCBChapterTwoDLinkList.c in Sources */,
 				089FC2C9206F52F600202210 /* WDChapterOneMindExtend.c in Sources */,
 				080FFF06206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c in Sources */,
+				08272B6C20709EAC00871D68 /* LCBChapterTwoExampleFour.c in Sources */,
 				089FC2CC206F581100202210 /* LCBChapterTwoSqList.c in Sources */,
 				080FFF03206CB82200531313 /* LCBChapterOneMachineExperimentOne.c in Sources */,
 			);
@@ -176,6 +224,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -183,6 +232,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -231,6 +281,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -238,6 +289,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

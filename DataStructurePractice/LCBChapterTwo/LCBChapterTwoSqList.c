@@ -41,7 +41,7 @@ int listLength(SqList *L) {
 
 void dispList(SqList *L) {
     for (int i = 0; i<listLength(L); i++) {
-        printf("%d   ",L->data[i]);
+        printf("%d  ",L->data[i]);
     }
     printf("\n");
 }
@@ -50,7 +50,7 @@ bool getElem(SqList *L,int i,ElemType *e) {
     if (i<1 || i> listLength(L)) {
         return  false;
     }else{
-        *e = L->data[i];
+        *e = L->data[i-1];
         return  true;
     }
 }
@@ -58,7 +58,7 @@ bool getElem(SqList *L,int i,ElemType *e) {
 int locateElem(SqList *L,ElemType e) {
     for (int i = 0; i<listLength(L); i++) {
         if (L->data[i] == e) {
-            return i;
+            return i+1;
         }
     }
     return 0;

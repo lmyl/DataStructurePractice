@@ -11,11 +11,10 @@
 //判断一个字符串是否为回文字符串，并分析时间复杂度
 void judgmentStringOfPalindromes(char input[]) {
     int length = 0;
-    for (length; input[length] != '\0'; length++) {
+    for (; input[length] != '\0'; length++) {
     }
     int countEnd = length-1;
-    int countStart = 0;
-    for (countStart; countStart<=countEnd; countStart++) {
+    for (int countStart = 0; countStart<=countEnd; countStart++) {
         if (input[countStart] != input[countEnd]) {
             printf("不是回文字符串\n");
             return ;
