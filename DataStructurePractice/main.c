@@ -7,17 +7,14 @@
 //
 
 #include <stdio.h>
-#include "LCBChapterTwoExampleFour.h"
 
-ElemType a[] = {3,8,2,7,1,5,3,4,6,0};
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    SqList L;
-    createList(&L, a,10);
-    dispList(&L);
-    moveOne(&L);
-    dispList(&L);
-    printf("Hello, World!\n");
+    
+
+    
+    
     return 0;
 }

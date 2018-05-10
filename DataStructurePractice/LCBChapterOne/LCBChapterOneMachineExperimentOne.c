@@ -9,6 +9,8 @@
 #include "LCBChapterOneMachineExperimentOne.h"
 #include <math.h>
 
+int judgment(int number) ;
+
 //输出所有小于number的质数,number为一个大于2的正整数
 //要求：1.每行输出10个质数  2.尽可能采用最优算法
 void outputPrimeNumber(int number) {
@@ -27,11 +29,11 @@ void outputPrimeNumber(int number) {
     }
 }
 
-//判断数number是不是一个质数
+//判断数number是不是一个质数,返回0代表不是质数,1代表是质数
 int judgment(int number) {
-    int demarcation = (int)sqrt((double)number);
-    for (int i=1; i<=demarcation; i++) {
-        if (i!=1 && number % i == 0) {
+    int demarcation = (int)sqrt((double)number) + 1 ;
+    for (int i=2; i<=demarcation; i++) {
+        if (i != number && number % i == 0) {
             return 0;
         }
     }

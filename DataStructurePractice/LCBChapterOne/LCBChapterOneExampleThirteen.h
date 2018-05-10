@@ -25,8 +25,6 @@ struct stud2 {
     int deg;//成绩
 };
 
-double courseAvarageGrade(struct stud2 student[],int studentCount,int i);
-double studentAvarageGrade(struct stud2 student[],int studentCount,int i);
 void allAvarageGrade(struct stud1 studentInfo[],struct stud2 studentGrade[],int studentGradeCount,int studentInfoCount,int courseAmount);
 
 #endif /* LCBChapterOneExampleThirteen_h */

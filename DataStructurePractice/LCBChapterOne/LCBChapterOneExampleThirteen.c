@@ -8,13 +8,15 @@
 
 #include "LCBChapterOneExampleThirteen.h"
 
+double studentAvarageGrade(struct stud2 student[],int studentGradeCount,int studentNumber);
+double courseAvarageGrade(struct stud2 student[],int studentGradeCount,int coureseNumber);
 
 //求学号为i的学生的平均分
-double studentAvarageGrade(struct stud2 student[],int studentCount,int i) {
+double studentAvarageGrade(struct stud2 student[],int studentGradeCount,int studentNumber) {
     double sum = 0;
     int counter = 0 ;
-    for (int j=0; j<studentCount; j++) {
-        if (student[j].no == i) {
+    for (int j=0; j<studentGradeCount; j++) {
+        if (student[j].no == studentNumber) {
             sum += student[j].deg;
             counter++ ;
         }
@@ -23,11 +25,11 @@ double studentAvarageGrade(struct stud2 student[],int studentCount,int i) {
 }
 
 //求编号为i的课程的平均分
-double courseAvarageGrade(struct stud2 student[],int studentCount,int i) {
+double courseAvarageGrade(struct stud2 student[],int studentGradeCount,int coureseNumber) {
     double sum = 0;
     int counter = 0;
-    for (int j = 0; j<studentCount; j++) {
-        if (student[j].cno == i) {
+    for (int j = 0; j<studentGradeCount; j++) {
+        if (student[j].cno == coureseNumber) {
             counter ++;
             sum += student[j].deg;
         }
@@ -48,6 +50,6 @@ void allAvarageGrade(struct stud1 studentInfo[],struct stud2 studentGrade[],int 
     printf("课程号  平均分\n");
     for (int i = 1; i<=courseAmount; i++) {
         double grade = courseAvarageGrade(studentGrade, studentGradeCount, courseAmount);
-        printf("%d  %g\n",studentGrade[i].cno,grade);
+        printf("%d  %g\n",i,grade);
     }
 }
