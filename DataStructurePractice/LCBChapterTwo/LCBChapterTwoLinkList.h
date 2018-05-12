@@ -21,28 +21,41 @@ typedef struct LNode{//定义单链表节点类型
 } LinkList ;
 
 //MARK:建立单链表
-void createListF(LinkList *L ,ElemType a[], int n);
+//头插法，时间复杂度为O(n)
+LinkList * createLinkListF(ElemType numbers[], int count);
 
-void createListR(LinkList *L ,ElemType a[], int n);
+
+//尾插法，时间复杂度为O(n)
+LinkList * createLinkListR(ElemType numbers[], int count);
 
 //MARK:线性表的基本运算实现
 
-void initList(LinkList *L);
+//初始化线性表，时间复杂度为O(1)
+LinkList * initLinkList(void);
 
-void destoryList(LinkList *L);
 
-bool listEmpty(LinkList *L);
+//销毁线性表，时间复杂度为O(n)
+void destoryLinkList(LinkList *list);
 
-int listLength(LinkList *L);
+//判断线性表是否为空，时间复杂度为O(1)
+bool listLinkEmpty(LinkList *list);
 
-void dispList(LinkList *L);
+//求线性表的长度，时间复杂度为O(n)
+int listLinkLength(LinkList *list);
 
-bool getElem(LinkList *L,int i,ElemType *e);
+//输出线性表，时间复杂度为O(n)
+void dispLinkList(LinkList *list);
 
-int locateElem(LinkList *L,ElemType e);
+//求线性表中某个数据元素值，时间复杂度为O(n)
+bool getLinkElem(LinkList *list,int location,ElemType *element);
 
-bool listInsert(LinkList *L,int i,ElemType e);
+//按元素值查找,时间复杂度为O(n)
+int locateLinkElem(LinkList *list,ElemType element);
 
-bool listDelete(LinkList *L,int i,ElemType *e);
+//插入数据元素，时间复杂度为O(n)
+bool listLinkInsert(LinkList *list,int location,ElemType element);
+
+//删除数据元素，时间复杂度为O(n)
+bool listLinkDelete(LinkList *list,int location,ElemType *element);
 
 #endif /* LCBChapterTwoLinkList_h */

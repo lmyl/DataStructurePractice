@@ -7,16 +7,10 @@
 //
 
 #include <stdio.h>
-#include "LCBChapterTwoExampleThree.h"
-
-
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-   
 
-
-    
     return 0;
 }
 

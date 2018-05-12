@@ -9,53 +9,48 @@
 #include "LCBChapterTwoExampleFour.h"
 
 
-void moveOne(SqList *L) {
-    ElemType flag ;
-    ElemType temp ;
-    getElem(L, 1, &flag);
-    int head = 1 ;
-    int tail = listLength(L) - 1;
+void moveOne(SqList *list) {
+    ElemType flag,temp ;
+    getSqElem(list, 1, &flag);
+    int head = 0 ;
+    int tail = listSqLength(list) - 1;
     while (head<tail) {
-        while (L->data[head]<=flag && head < tail) {
-            head += 1 ;
-        }
-        while (L->data[tail]>flag && head < tail) {
+        while (list->data[tail] > flag && head < tail) {
             tail -= 1 ;
         }
+        while (list->data[head] <= flag && head < tail) {
+            head += 1 ;
+        }
         if (head<tail) {
-            temp = L->data[head];
-            L->data[head] = L->data[tail];
-            L->data[tail] = temp ;
+            temp = list->data[head];
+            list->data[head] = list->data[tail];
+            list->data[tail] = temp ;
         }
     }
-    temp = L->data[tail-1];
-    L->data[tail-1] = flag;
-    L->data[0] = temp ;
+    list->data[0] = list->data[tail] ;
+    list->data[tail] = flag;
+    
     
 }
 
-void moveTwo(SqList *L) {
-    ElemType temp ;
+void moveTwo(SqList *list) {
     int head = 0 ;
-    int tail = listLength(L) - 1;
+    int tail = listSqLength(list) - 1;
     ElemType flag ;
-    getElem(L, 1, &flag);
-    while (head < tail) {
-        while (L->data[tail] > flag && head < tail) {
-            tail -= 1 ;
-        }
-        if (head < tail) {
-            temp = L->data[tail] ;
-            L->data[tail] = L->data[head];
-            L->data[head] = temp ;
-        }
-        while (L->data[head] <= flag && head < tail) {
-            head += 1;
+    getSqElem(list, 1, &flag);
+    while (head<tail) {
+        while (tail > head && list->data[tail] > flag) {
+            tail -- ;
         }
         if (head<tail) {
-            temp = L->data[tail] ;
-            L->data[tail] = L->data[head];
-            L->data[head] = temp ;
+            list->data[head] = list->data[tail] ;
+        }
+        while (tail > head && list->data[head] <= flag) {
+            head ++ ;
+        }
+        if (head<tail) {
+            list->data[tail] = list->data[head] ;
         }
     }
+    list->data[head] = flag ;
 }

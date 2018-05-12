@@ -12,8 +12,8 @@
 void delnodeOne(SqList *L,ElemType x) {
     ElemType k ;
     int count = 0 ;
-    for (int i = 0; i<listLength(L); i++) {
-        getElem(L, i+1, &k);
+    for (int i = 0; i<listSqLength(L); i++) {
+        getSqElem(L, i+1, &k);
         if (k != x) {
             L->data[count] = L->data[i];
             count += 1;
@@ -25,8 +25,8 @@ void delnodeOne(SqList *L,ElemType x) {
 void delondeTwo(SqList *L,ElemType x) {
     int count = 0;
     ElemType k ;
-    for (int i = 0; i<listLength(L); i++) {
-        getElem(L, i+1, &k);
+    for (int i = 0; i<listSqLength(L); i++) {
+        getSqElem(L, i+1, &k);
         if (k == x) {
             count += 1;
         }else {

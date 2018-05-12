@@ -14,6 +14,7 @@
 		08272B6C20709EAC00871D68 /* LCBChapterTwoExampleFour.c in Sources */ = {isa = PBXBuildFile; fileRef = 08272B6B20709EAC00871D68 /* LCBChapterTwoExampleFour.c */; };
 		08272B722070C5FA00871D68 /* LCBChapterTwoLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 08272B712070C5FA00871D68 /* LCBChapterTwoLinkList.c */; };
 		08272B752070C8D800871D68 /* LCBChapterTwoDLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 08272B742070C8D800871D68 /* LCBChapterTwoDLinkList.c */; };
+		08525F2D20A716B00004C7F0 /* LCBChapterTwoExampleFive.c in Sources */ = {isa = PBXBuildFile; fileRef = 08525F2C20A716B00004C7F0 /* LCBChapterTwoExampleFive.c */; };
 		088FA6C6206A057B007D71C6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 088FA6C5206A057B007D71C6 /* main.c */; };
 		089FC2C9206F52F600202210 /* WDChapterOneMindExtend.c in Sources */ = {isa = PBXBuildFile; fileRef = 089FC2C8206F52F600202210 /* WDChapterOneMindExtend.c */; };
 		089FC2CC206F581100202210 /* LCBChapterTwoSqList.c in Sources */ = {isa = PBXBuildFile; fileRef = 089FC2CB206F581100202210 /* LCBChapterTwoSqList.c */; };
@@ -51,6 +52,8 @@
 		08272B712070C5FA00871D68 /* LCBChapterTwoLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoLinkList.c; sourceTree = "<group>"; };
 		08272B732070C8D800871D68 /* LCBChapterTwoDLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterTwoDLinkList.h; sourceTree = "<group>"; };
 		08272B742070C8D800871D68 /* LCBChapterTwoDLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoDLinkList.c; sourceTree = "<group>"; };
+		08525F2B20A716B00004C7F0 /* LCBChapterTwoExampleFive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterTwoExampleFive.h; sourceTree = "<group>"; };
+		08525F2C20A716B00004C7F0 /* LCBChapterTwoExampleFive.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoExampleFive.c; sourceTree = "<group>"; };
 		088FA6C2206A057B007D71C6 /* DataStructurePractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructurePractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		088FA6C5206A057B007D71C6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		089FC2C7206F52F600202210 /* WDChapterOneMindExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterOneMindExtend.h; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				08272B6B20709EAC00871D68 /* LCBChapterTwoExampleFour.c */,
 				08272B702070C5FA00871D68 /* LCBChapterTwoLinkList.h */,
 				08272B712070C5FA00871D68 /* LCBChapterTwoLinkList.c */,
+				08525F2B20A716B00004C7F0 /* LCBChapterTwoExampleFive.h */,
+				08525F2C20A716B00004C7F0 /* LCBChapterTwoExampleFive.c */,
 				08272B732070C8D800871D68 /* LCBChapterTwoDLinkList.h */,
 				08272B742070C8D800871D68 /* LCBChapterTwoDLinkList.c */,
 			);
@@ -224,6 +229,7 @@
 				080FFF00206CB00100531313 /* LCBChapterOneExampleThirteen.c in Sources */,
 				080FFF09206CC10900531313 /* LCBChapterOneMachineExperimentThree.c in Sources */,
 				08272B722070C5FA00871D68 /* LCBChapterTwoLinkList.c in Sources */,
+				08525F2D20A716B00004C7F0 /* LCBChapterTwoExampleFive.c in Sources */,
 				08CEA17A20708B1C0011DDD7 /* LCBChapterTwoExampleThree.c in Sources */,
 				08EEF5ED20A45BCF009345C4 /* LCBChapterOnePracticeQuestionThirteen.c in Sources */,
 				088FA6C6206A057B007D71C6 /* main.c in Sources */,

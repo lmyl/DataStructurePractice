@@ -9,8 +9,8 @@
 #include "LCBChapterTwoSqList.h"
 
 
-SqList * createList(ElemType numbers[],int count) {
-    SqList *list = initList();
+SqList * createSqList(ElemType numbers[],int count) {
+    SqList *list = initSqList();
     list = (SqList *)malloc(sizeof(SqList));
     for (int i = 0; i<count; i++) {
         list->data[i] = numbers[i];
@@ -19,18 +19,18 @@ SqList * createList(ElemType numbers[],int count) {
     return list ;
 }
 
-SqList * initList(void) {
+SqList * initSqList(void) {
     SqList *list = (SqList *)malloc(sizeof(SqList));
     list->length = 0 ;
     return list ;
 }
 
 
-void destoryList(SqList *list) {
+void destorySqList(SqList *list) {
     free(list);
 }
 
-bool listEmpty(SqList *list) {
+bool listSqEmpty(SqList *list) {
     if (list->length == 0) {
         return true;
     }else{
@@ -38,19 +38,19 @@ bool listEmpty(SqList *list) {
     }
 }
 
-int listLength(SqList *list) {
+int listSqLength(SqList *list) {
     return list->length;
 }
 
-void dispList(SqList *list) {
-    for (int i = 0; i<listLength(list); i++) {
+void dispSqList(SqList *list) {
+    for (int i = 0; i<listSqLength(list); i++) {
         printf("%d  ",list->data[i]);
     }
     printf("\n");
 }
 
-bool getElem(SqList *list,int location,ElemType *element) {
-    if (location<1 || location> listLength(list)) {
+bool getSqElem(SqList *list,int location,ElemType *element) {
+    if (location<1 || location> listSqLength(list)) {
         printf("序号超出范围");
         return  false;
     }else{
@@ -59,8 +59,8 @@ bool getElem(SqList *list,int location,ElemType *element) {
     }
 }
 
-int locateElem(SqList *list,ElemType element) {
-    for (int i = 0; i<listLength(list); i++) {
+int locateSqElem(SqList *list,ElemType element) {
+    for (int i = 0; i<listSqLength(list); i++) {
         if (list->data[i] == element) {
             return i+1;
         }
@@ -68,15 +68,15 @@ int locateElem(SqList *list,ElemType element) {
     return 0;
 }
 
-bool listInsert(SqList *list,int location, ElemType element) {
-    if (location<1 || location>listLength(list)+1) {
+bool listSqInsert(SqList *list,int location, ElemType element) {
+    if (location<1 || location>listSqLength(list)+1) {
         printf("输入序号超出范围");
         return  false;
-    }else if (listLength(list) == MaxSize) {
+    }else if (listSqLength(list) == MaxSize) {
         printf("线性表已满");
         return false ;
     }else {
-        for (int j = listLength(list)-1; j>=location-1; j--) {
+        for (int j = listSqLength(list)-1; j>=location-1; j--) {
             list->data[j+1] = list->data[j];
         }
         list->data[location-1] = element;
@@ -85,14 +85,14 @@ bool listInsert(SqList *list,int location, ElemType element) {
     }
 }
 
-bool listDelete(SqList *list,int location, ElemType *element) {
-    if (location<1 || location>listLength(list)) {
+bool listSqDelete(SqList *list,int location, ElemType *element) {
+    if (location<1 || location>listSqLength(list)) {
         printf("输入序号超出范围");
         return false;
     }else{
-        getElem(list, location, element) ;
-        if (listLength(list) > 1) {
-            for (int j = location; j<listLength(list); j++) {
+        getSqElem(list, location, element) ;
+        if (listSqLength(list) > 1) {
+            for (int j = location; j<listSqLength(list); j++) {
                 list->data[j-1] = list->data[j] ;
             }
         }
