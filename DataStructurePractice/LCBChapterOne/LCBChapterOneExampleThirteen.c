@@ -8,16 +8,16 @@
 
 #include "LCBChapterOneExampleThirteen.h"
 
-double studentAvarageGrade(struct stud2 student[],int studentGradeCount,int studentNumber);
-double courseAvarageGrade(struct stud2 student[],int studentGradeCount,int coureseNumber);
+double studentAvarageGrade(struct courseInfo course[],int studentGradeCount,int studentNumber) ;
+double courseAvarageGrade(struct courseInfo course[],int studentGradeCount,int coureseNumber) ;
 
 //求学号为i的学生的平均分
-double studentAvarageGrade(struct stud2 student[],int studentGradeCount,int studentNumber) {
+double studentAvarageGrade(struct courseInfo course[],int studentGradeCount,int studentNumber) {
     double sum = 0;
     int counter = 0 ;
     for (int j=0; j<studentGradeCount; j++) {
-        if (student[j].no == studentNumber) {
-            sum += student[j].deg;
+        if (course[j].no == studentNumber) {
+            sum += course[j].deg;
             counter++ ;
         }
     }
@@ -25,20 +25,20 @@ double studentAvarageGrade(struct stud2 student[],int studentGradeCount,int stud
 }
 
 //求编号为i的课程的平均分
-double courseAvarageGrade(struct stud2 student[],int studentGradeCount,int coureseNumber) {
+double courseAvarageGrade(struct courseInfo course[],int studentGradeCount,int coureseNumber) {
     double sum = 0;
     int counter = 0;
     for (int j = 0; j<studentGradeCount; j++) {
-        if (student[j].cno == coureseNumber) {
+        if (course[j].cno == coureseNumber) {
             counter ++;
-            sum += student[j].deg;
+            sum += course[j].deg;
         }
     }
     return sum/counter;
 }
 
 //求学生平均分和课程平均分,时间复杂度为O(studentCount * studentInfoCount)
-void allAvarageGrade(struct stud1 studentInfo[],struct stud2 studentGrade[],int studentGradeCount,int studentInfoCount,int courseAmount) {
+void allAvarageGrade(struct studentInfo studentInfo[],struct courseInfo studentGrade[],int studentGradeCount,int studentInfoCount,int courseAmount) {
     printf("学生平均成绩:\n");
     printf("学号  姓名  平均分\n");
     for (int i=0; i<studentInfoCount; i++) {

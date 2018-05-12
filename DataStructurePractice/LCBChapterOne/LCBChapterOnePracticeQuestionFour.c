@@ -49,11 +49,10 @@ void orderThreeElement(int one,int two ,int three) {
 void pickMaxAndMin(int numbers[],int count) {
     int min = numbers[0] ;
     int max = numbers[0] ;
-    for (int i = 0; i<count; i++) {
+    for (int i = 1; i<count; i++) {
         if (min > numbers[i]) {
             min = numbers[i] ;
-        }
-        if (max < numbers[i]) {
+        }else if (max < numbers[i]) {
             max = numbers[i] ;
         }
     }

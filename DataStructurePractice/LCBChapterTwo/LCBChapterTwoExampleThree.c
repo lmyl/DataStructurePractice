@@ -11,24 +11,6 @@
 
 void delnodeOne(SqList *L,ElemType x) {
     ElemType k ;
-    int count = 0;
-    SqList Lbacking ;
-    initList(&Lbacking);
-    (&Lbacking)->length = 0;
-    for (int i = 0; i<listLength(L); i++) {
-        getElem(L, i+1, &k);
-        if (k != x) {
-            (&Lbacking)->data[count] = k;
-            count += 1;
-        }
-    }
-    (&Lbacking)->length = count;
-    *L = Lbacking ;
-}
-
-
-void delnodeTwo(SqList *L,ElemType x) {
-    ElemType k ;
     int count = 0 ;
     for (int i = 0; i<listLength(L); i++) {
         getElem(L, i+1, &k);
@@ -40,7 +22,7 @@ void delnodeTwo(SqList *L,ElemType x) {
     L->length = count;
 }
 
-void delondeThree(SqList *L,ElemType x) {
+void delondeTwo(SqList *L,ElemType x) {
     int count = 0;
     ElemType k ;
     for (int i = 0; i<listLength(L); i++) {

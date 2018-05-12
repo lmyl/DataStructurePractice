@@ -14,7 +14,6 @@
 //假设一个线性表采用顺序表表示，设计一个算法，删除其中所有值等于x的元素，要求算法时间复杂度为O(n),空间复杂度为O(1)
 
 void delnodeOne(SqList *L,ElemType x);
-void delnodeTwo(SqList *L,ElemType x);
-void delondeThree(SqList *L,ElemType x);
+void delondeTwo(SqList *L,ElemType x);
 
 #endif /* LCBChapterTwoExampleThree_h */

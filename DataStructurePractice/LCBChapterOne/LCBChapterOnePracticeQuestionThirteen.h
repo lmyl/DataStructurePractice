@@ -22,6 +22,7 @@
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <stdbool.h>
 
 typedef struct {
@@ -31,7 +32,7 @@ typedef struct {
 
 
 
-void createSet(Set *set ,int numbers[] ,int count) ;
+Set * createSet(int numbers[] ,int count) ;
 void dispset(Set *set) ;
 bool contain(Set *set , int element) ;
 void add(Set *setOne,Set *setTwo,Set *setThree) ;

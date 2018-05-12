@@ -9,11 +9,13 @@
 #include "LCBChapterOnePracticeQuestionThirteen.h"
 
 //此建立算法未考虑数组中出现相同的元素
-void createSet(Set *set ,int numbers[] ,int count) {
+Set * createSet(int numbers[] ,int count) {
+    Set *set  = (Set *)malloc(sizeof(set));
     for (int i = 0; i<count; i++) {
         set -> data[i] = numbers[i] ;
     }
     set -> length = count ;
+    return  set ;
 }
 
 void dispset(Set *set) {
