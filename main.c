@@ -7,13 +7,16 @@
 //
 
 #include <stdio.h>
-#include "LCBChapterTwoExampleEight.h"
+
+#include "LCBChapterTwoListApplicationOne.h"
+
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
-    
-    
+    solveNaturalJoin();
+ 
     return 0;
 }
 
