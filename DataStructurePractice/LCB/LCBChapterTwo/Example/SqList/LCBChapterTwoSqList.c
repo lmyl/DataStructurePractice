@@ -11,7 +11,6 @@
 
 SqList * createSqList(ElemType numbers[],int count) {
     SqList *list = initSqList();
-    list = (SqList *)malloc(sizeof(SqList));
     for (int i = 0; i<count; i++) {
         list->data[i] = numbers[i];
     }
