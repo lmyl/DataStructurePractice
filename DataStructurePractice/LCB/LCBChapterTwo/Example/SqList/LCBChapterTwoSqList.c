@@ -42,10 +42,11 @@ int listSqLength(SqList *list) {
 }
 
 void dispSqList(SqList *list) {
+    printf("(");
     for (int i = 0; i<listSqLength(list); i++) {
         printf("%d  ",list->data[i]);
     }
-    printf("\n");
+    printf(")\n");
 }
 
 bool getSqElem(SqList *list,int location,ElemType *element) {

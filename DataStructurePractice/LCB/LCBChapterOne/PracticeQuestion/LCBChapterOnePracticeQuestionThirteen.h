@@ -35,9 +35,9 @@ typedef struct {
 Set * createSet(int numbers[] ,int count) ;
 void dispset(Set *set) ;
 bool contain(Set *set , int element) ;
-void add(Set *setOne,Set *setTwo,Set *setThree) ;
-void sub(Set *setOne,Set *setTwo,Set *setThree) ;
-void interSection(Set *setOne,Set *setTwo,Set *setThree) ;
+Set * add(Set *setOne,Set *setTwo) ;
+Set * sub(Set *setOne,Set *setTwo) ;
+Set * interSection(Set *setOne,Set *setTwo) ;
 
 
 

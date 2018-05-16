@@ -8,13 +8,22 @@
 
 #include "LCBChapterOnePracticeQuestionThirteen.h"
 
-//此建立算法未考虑数组中出现相同的元素
+Set * initSet() {
+    Set *result = (Set *)malloc(sizeof(Set));
+    result->length = 0;
+    return result;
+}
+
 Set * createSet(int numbers[] ,int count) {
-    Set *set  = (Set *)malloc(sizeof(set));
+    Set *set  = initSet();
+    int countElement = 0 ;
     for (int i = 0; i<count; i++) {
-        set -> data[i] = numbers[i] ;
+        if (!contain(set, numbers[i])) {
+            set -> data[countElement] = numbers[i] ;
+            countElement ++;
+        }
     }
-    set -> length = count ;
+    set -> length = countElement ;
     return  set ;
 }
 
@@ -35,7 +44,8 @@ bool contain(Set *set , int element) {
     return false ;
 }
 
-void add(Set *setOne,Set *setTwo,Set *setThree) {
+Set * add(Set *setOne,Set *setTwo) {
+    Set *setThree = initSet();
     for (int i = 0; i<setOne->length; i++) {
         setThree->data[i] = setOne->data[i] ;
     }
@@ -46,9 +56,11 @@ void add(Set *setOne,Set *setTwo,Set *setThree) {
             setThree->length ++ ;
         }
     }
+    return setThree;
 }
 
-void sub(Set *setOne,Set *setTwo,Set *setThree) {
+Set * sub(Set *setOne,Set *setTwo) {
+    Set *setThree = initSet();
     setThree->length = 0 ;
     for (int i = 0; i<setOne->length; i++) {
         if (!contain(setTwo, setOne->data[i])) {
@@ -56,9 +68,11 @@ void sub(Set *setOne,Set *setTwo,Set *setThree) {
             setThree->length ++ ;
         }
     }
+    return setThree;
 }
 
-void interSection(Set *setOne,Set *setTwo,Set *setThree) {
+Set * interSection(Set *setOne,Set *setTwo) {
+    Set *setThree = initSet();
     setThree->length = 0;
     for (int i = 0; i<setOne->length; i++) {
         if (contain(setTwo, setOne->data[i])) {
@@ -66,4 +80,5 @@ void interSection(Set *setOne,Set *setTwo,Set *setThree) {
             setThree->length ++ ;
         }
     }
+    return setThree ;
 }

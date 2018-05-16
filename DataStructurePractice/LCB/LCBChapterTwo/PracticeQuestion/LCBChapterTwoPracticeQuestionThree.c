@@ -8,22 +8,24 @@
 
 #include "LCBChapterTwoPracticeQuestionThree.h"
 
-void  segmentationTheFirstElementInSqList(SqList *list) {
+void  segmentationZerosElementInSqList(SqList *list) {
     ElemType flag = 0,temp;
     int i = 0 ;
     int j = list->length - 1;
-    while (i<j) {
-        while (list->data[j] >= flag && j>i) {
-            j--;
-        }
-        while (list->data[i] < flag && j>i) {
+    int equat = 0;
+    while (equat<=j) {
+        if (list->data[equat] < flag) {
+            temp = list->data[i] ;
+            list->data[i] = list->data[equat];
+            list->data[equat] = temp;
+            equat++;
             i++;
-        }
-        if (i<j) {
-            temp = list->data[i];
-            list->data[i] = list->data[j];
+        }else if (list->data[equat] == flag) {
+            equat++;
+        }else{
+            temp = list->data[equat];
+            list->data[equat] = list->data[j];
             list->data[j] = temp;
-            i++;
             j--;
         }
     }

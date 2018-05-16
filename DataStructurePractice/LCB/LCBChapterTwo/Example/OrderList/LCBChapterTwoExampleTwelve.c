@@ -36,7 +36,7 @@ OrderSqList * mergeOrderSqList(OrderSqList *first ,OrderSqList *second) {
         secondIP ++;
         mergeCount ++;
     }
-    result->length = mergeCount - 1;
+    result->length = mergeCount ;
     return result;
 }
 
