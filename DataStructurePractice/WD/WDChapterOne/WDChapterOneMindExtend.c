@@ -11,11 +11,11 @@
 
 
 //递归算法求解第number个斐波拉契数列,并分析算法的时间复杂度
-int sloveRecursive(int number) {
+int sloveFibonacciRecursive(int number) {
     if (number == 1 || number == 2) {
         return 1;
     }else {
-        return sloveRecursive(number-1) + sloveRecursive(number-2);
+        return sloveFibonacciRecursive(number-1) + sloveFibonacciRecursive(number-2);
     }
 }
 //时间复杂度T(n) = T(n-1) + T(n-2) + 1,T(1) = 1;T(2) = 1;
@@ -24,7 +24,7 @@ int sloveRecursive(int number) {
 
 //非递归算法求解第number个斐波拉契数列,并分析算法的时间复杂度
 
-int sloveNonRecursive(int number) {
+int sloveFibonacciNonRecursive(int number) {
     if (number == 1 || number == 2) {
         return 1 ;
     }

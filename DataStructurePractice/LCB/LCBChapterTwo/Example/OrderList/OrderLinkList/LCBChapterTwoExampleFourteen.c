@@ -15,6 +15,8 @@ void deleteAllSameInOrderLinkList(OrderLinkList *list) {
     if (next == NULL || next->next == NULL) {
         return ;
     }
+    next = next->next;
+    onlyElementPre = onlyElementPre->next;
     while (next != NULL) {
         if (next->data == onlyElementPre->data) {
             onlyElementPre->next = next->next;

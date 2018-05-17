@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-#include "LCBXXZDChapterTwoAlgorithmDesignTen.h"
+#include "LCBXXZDChapterTwoAlgorithmDesignTwentySeven.h"
 
 
 
@@ -19,14 +19,13 @@ int main(int argc, const char * argv[]) {
     int arrayTwo[] = {2,3,4,5,6,7,8,9};
     int arrayThree[] = {-20,22,12,-21,2,10,2,0,0,-10,0,1};
     int arrayFour[] = {7,0,0,0,0};
-    LinkList *list = createLinkListR(array, 20);
-    dispLinkList(list);
-    LinkList *listTwo = createLinkListR(arrayFour, 5);
-    dispLinkList(listTwo);
-    printf("%d\n",isSubsquence(list, listTwo));
+    CDLinkList *list = createCDLinkListR(array, 20);
+    dispCDLinkList(list);
+    deleteFirstValueInCDLinkListDesign(list, 0);
+    dispCLinkList(list);
+
     
-    
-    
+
     
     return 0;
 }

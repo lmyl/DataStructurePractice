@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-int sloveNonRecursive(int number);
-int sloveRecursive(int number);
+int sloveFibonacciNonRecursive(int number);
+int sloveFibonacciRecursive(int number);
 
 #endif /* WDChapterOneMindExtend_h */
