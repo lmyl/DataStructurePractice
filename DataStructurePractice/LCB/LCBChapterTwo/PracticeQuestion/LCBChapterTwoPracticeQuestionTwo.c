@@ -18,5 +18,5 @@ void deletElementRangeInSqList(SqList *list,int min,int max) {
             count ++ ;
         }
     }
-    list->length = count - 1;
+    list->length = count ;
 }

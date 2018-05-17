@@ -16,7 +16,7 @@ OrderSqList * mergeOrderSqList(OrderSqList *first ,OrderSqList *second) {
     secondLength = second->length;
     OrderSqList *result = initOrderSqList();
     while (firstIP<firstLength && secondIP < secondLength) {
-        if (first->data[firstIP] < second->data[secondIP]) {
+        if (first->data[firstIP] <= second->data[secondIP]) {
             result->data[mergeCount] = first->data[firstIP] ;
             mergeCount ++ ;
             firstIP ++ ;
@@ -47,7 +47,7 @@ OrderLinkList * mergeOrderLinkList(OrderLinkList *first ,OrderLinkList *second) 
     OrderLinkList *nextSecond = second->next;
     while (nextFirst != NULL && second != NULL) {
         OrderLinkList *data = initOrderLinkList();
-        if (nextFirst->data < nextSecond->data) {
+        if (nextFirst->data <= nextSecond->data) {
             data->data = nextFirst->data ;
             nextFirst = nextFirst->next;
         }else{

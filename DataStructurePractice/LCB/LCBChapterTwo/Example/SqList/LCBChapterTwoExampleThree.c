@@ -9,29 +9,29 @@
 #include "LCBChapterTwoExampleThree.h"
 
 
-void delnodeOne(SqList *L,ElemType x) {
+void delnodeOne(SqList *list,ElemType number) {
     ElemType k ;
     int count = 0 ;
-    for (int i = 0; i<listSqLength(L); i++) {
-        getSqElem(L, i+1, &k);
-        if (k != x) {
-            L->data[count] = L->data[i];
+    for (int i = 0; i<listSqLength(list); i++) {
+        getSqElem(list, i+1, &k);
+        if (k != number) {
+            list->data[count] = list->data[i];
             count += 1;
         }
     }
-    L->length = count;
+    list->length = count;
 }
 
-void delondeTwo(SqList *L,ElemType x) {
+void delondeTwo(SqList *list,ElemType number) {
     int count = 0;
     ElemType k ;
-    for (int i = 0; i<listSqLength(L); i++) {
-        getSqElem(L, i+1, &k);
-        if (k == x) {
+    for (int i = 0; i<listSqLength(list); i++) {
+        getSqElem(list, i+1, &k);
+        if (k == number) {
             count += 1;
         }else {
-            L->data[i-count] = L->data[i];
+            list->data[i-count] = list->data[i];
         }
     }
-    L->length -= count ;
+    list->length -= count ;
 }
