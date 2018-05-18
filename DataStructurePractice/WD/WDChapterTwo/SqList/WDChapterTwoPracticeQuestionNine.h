@@ -17,4 +17,8 @@
 
 void locateSqElementAndAdjust(SqList *list,int element);
 
+
+//最优解，这折半查找
+void locateSqElementAndAdjustTheBestSlove(SqList *list,int element);
+
 #endif /* WDChapterTwoPracticeQuestionNine_h */
