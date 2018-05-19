@@ -65,6 +65,29 @@
 		08AF8DB020A827B600B1E55C /* LCBChapterTwoExampleSix.c in Sources */ = {isa = PBXBuildFile; fileRef = 08AF8DAF20A827B600B1E55C /* LCBChapterTwoExampleSix.c */; };
 		08AF8DB320A82C0500B1E55C /* LCBChapterTwoExampleSeven.c in Sources */ = {isa = PBXBuildFile; fileRef = 08AF8DB220A82C0500B1E55C /* LCBChapterTwoExampleSeven.c */; };
 		08AF8DB620A8457D00B1E55C /* LCBChapterTwoExampleEight.c in Sources */ = {isa = PBXBuildFile; fileRef = 08AF8DB520A8457D00B1E55C /* LCBChapterTwoExampleEight.c */; };
+		08C033B120B00A990004576D /* WDChapterTwoPointTheePracticeQuestionOne.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033B020B00A990004576D /* WDChapterTwoPointTheePracticeQuestionOne.c */; };
+		08C033B420B00E7E0004576D /* WDChapterTwoPointTheePracticeQuestionTwo.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033B320B00E7E0004576D /* WDChapterTwoPointTheePracticeQuestionTwo.c */; };
+		08C033B720B010CA0004576D /* WDChapterTwoPointTheePracticeQuestionThree.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033B620B010CA0004576D /* WDChapterTwoPointTheePracticeQuestionThree.c */; };
+		08C033BA20B0116A0004576D /* WDChapterTwoPointTheePracticeQuestionFour.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033B920B0116A0004576D /* WDChapterTwoPointTheePracticeQuestionFour.c */; };
+		08C033BD20B013BC0004576D /* WDChapterTwoPointTheePracticeQuestionFive.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033BC20B013BC0004576D /* WDChapterTwoPointTheePracticeQuestionFive.c */; };
+		08C033C020B015A20004576D /* WDChapterTwoPointTheePracticeQuestionSix.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033BF20B015A20004576D /* WDChapterTwoPointTheePracticeQuestionSix.c */; };
+		08C033C320B017890004576D /* WDChapterTwoPointTheePracticeQuestionSeven.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033C220B017890004576D /* WDChapterTwoPointTheePracticeQuestionSeven.c */; };
+		08C033C620B0184A0004576D /* WDChapterTwoPointTheePracticeQuestionEight.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033C520B0184A0004576D /* WDChapterTwoPointTheePracticeQuestionEight.c */; };
+		08C033C920B01BE80004576D /* WDChapterTwoPointTheePracticeQuestionNine.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033C820B01BE80004576D /* WDChapterTwoPointTheePracticeQuestionNine.c */; };
+		08C033CC20B01E290004576D /* WDChapterTwoPointTheePracticeQuestionTen.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033CB20B01E290004576D /* WDChapterTwoPointTheePracticeQuestionTen.c */; };
+		08C033CF20B020030004576D /* WDChapterTwoPointTheePracticeQuestionEleven.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033CE20B020030004576D /* WDChapterTwoPointTheePracticeQuestionEleven.c */; };
+		08C033D320B020E60004576D /* WDChapterTwoPointTheePracticeQuestionTwelve.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033D220B020E60004576D /* WDChapterTwoPointTheePracticeQuestionTwelve.c */; };
+		08C033D620B022710004576D /* WDChapterTwoPointTheePracticeQuestionThirteen.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033D520B022710004576D /* WDChapterTwoPointTheePracticeQuestionThirteen.c */; };
+		08C033D920B0231C0004576D /* WDChapterTwoPointTheePracticeQuestionFourteen.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033D820B0231C0004576D /* WDChapterTwoPointTheePracticeQuestionFourteen.c */; };
+		08C033DC20B026810004576D /* WDChapterTwoPointTheePracticeQuestionFifteen.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033DB20B026810004576D /* WDChapterTwoPointTheePracticeQuestionFifteen.c */; };
+		08C033DF20B029AF0004576D /* WDChapterTwoPointTheePracticeQuestionSixteen.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033DE20B029AF0004576D /* WDChapterTwoPointTheePracticeQuestionSixteen.c */; };
+		08C033E320B02A9F0004576D /* WDChapterTwoPointTheePracticeQuestionSeventeen.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033E220B02A9F0004576D /* WDChapterTwoPointTheePracticeQuestionSeventeen.c */; };
+		08C033E720B02E630004576D /* WDChapterTwoPointTheePracticeQuestionEighteen.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033E620B02E630004576D /* WDChapterTwoPointTheePracticeQuestionEighteen.c */; };
+		08C033EA20B031B60004576D /* WDChapterTwoPointTheePracticeQuestionNineteen.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033E920B031B60004576D /* WDChapterTwoPointTheePracticeQuestionNineteen.c */; };
+		08C033EE20B03C750004576D /* WDChapterTwoPointTheePracticeQuestionTwenty.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033ED20B03C750004576D /* WDChapterTwoPointTheePracticeQuestionTwenty.c */; };
+		08C033F120B03E250004576D /* WDChapterTwoPointTheePracticeQuestionTwentyOne.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033F020B03E250004576D /* WDChapterTwoPointTheePracticeQuestionTwentyOne.c */; };
+		08C033F420B041090004576D /* WDChapterTwoPointTheePracticeQuestionTwentyTwo.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033F320B041090004576D /* WDChapterTwoPointTheePracticeQuestionTwentyTwo.c */; };
+		08C033F720B0421C0004576D /* WDChapterTwoPointTheePracticeQuestionTwentyThree.c in Sources */ = {isa = PBXBuildFile; fileRef = 08C033F620B0421C0004576D /* WDChapterTwoPointTheePracticeQuestionTwentyThree.c */; };
 		08CEA17A20708B1C0011DDD7 /* LCBChapterTwoExampleThree.c in Sources */ = {isa = PBXBuildFile; fileRef = 08CEA17920708B1C0011DDD7 /* LCBChapterTwoExampleThree.c */; };
 		08D6CF1020A5981600CC8998 /* LCBXXZDChapterOneAlgorithmDesignSeven.c in Sources */ = {isa = PBXBuildFile; fileRef = 08D6CF0F20A5981600CC8998 /* LCBXXZDChapterOneAlgorithmDesignSeven.c */; };
 		08D6CF1320A5997200CC8998 /* LCBXXZDChapterOneAlgorithmDesignEight.c in Sources */ = {isa = PBXBuildFile; fileRef = 08D6CF1220A5997200CC8998 /* LCBXXZDChapterOneAlgorithmDesignEight.c */; };
@@ -215,6 +238,52 @@
 		08AF8DB220A82C0500B1E55C /* LCBChapterTwoExampleSeven.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoExampleSeven.c; sourceTree = "<group>"; };
 		08AF8DB420A8457D00B1E55C /* LCBChapterTwoExampleEight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterTwoExampleEight.h; sourceTree = "<group>"; };
 		08AF8DB520A8457D00B1E55C /* LCBChapterTwoExampleEight.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoExampleEight.c; sourceTree = "<group>"; };
+		08C033AF20B00A990004576D /* WDChapterTwoPointTheePracticeQuestionOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionOne.h; sourceTree = "<group>"; };
+		08C033B020B00A990004576D /* WDChapterTwoPointTheePracticeQuestionOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionOne.c; sourceTree = "<group>"; };
+		08C033B220B00E7E0004576D /* WDChapterTwoPointTheePracticeQuestionTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionTwo.h; sourceTree = "<group>"; };
+		08C033B320B00E7E0004576D /* WDChapterTwoPointTheePracticeQuestionTwo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionTwo.c; sourceTree = "<group>"; };
+		08C033B520B010CA0004576D /* WDChapterTwoPointTheePracticeQuestionThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionThree.h; sourceTree = "<group>"; };
+		08C033B620B010CA0004576D /* WDChapterTwoPointTheePracticeQuestionThree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionThree.c; sourceTree = "<group>"; };
+		08C033B820B0116A0004576D /* WDChapterTwoPointTheePracticeQuestionFour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionFour.h; sourceTree = "<group>"; };
+		08C033B920B0116A0004576D /* WDChapterTwoPointTheePracticeQuestionFour.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionFour.c; sourceTree = "<group>"; };
+		08C033BB20B013BC0004576D /* WDChapterTwoPointTheePracticeQuestionFive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionFive.h; sourceTree = "<group>"; };
+		08C033BC20B013BC0004576D /* WDChapterTwoPointTheePracticeQuestionFive.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionFive.c; sourceTree = "<group>"; };
+		08C033BE20B015A20004576D /* WDChapterTwoPointTheePracticeQuestionSix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionSix.h; sourceTree = "<group>"; };
+		08C033BF20B015A20004576D /* WDChapterTwoPointTheePracticeQuestionSix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionSix.c; sourceTree = "<group>"; };
+		08C033C120B017890004576D /* WDChapterTwoPointTheePracticeQuestionSeven.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionSeven.h; sourceTree = "<group>"; };
+		08C033C220B017890004576D /* WDChapterTwoPointTheePracticeQuestionSeven.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionSeven.c; sourceTree = "<group>"; };
+		08C033C420B0184A0004576D /* WDChapterTwoPointTheePracticeQuestionEight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionEight.h; sourceTree = "<group>"; };
+		08C033C520B0184A0004576D /* WDChapterTwoPointTheePracticeQuestionEight.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionEight.c; sourceTree = "<group>"; };
+		08C033C720B01BE80004576D /* WDChapterTwoPointTheePracticeQuestionNine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionNine.h; sourceTree = "<group>"; };
+		08C033C820B01BE80004576D /* WDChapterTwoPointTheePracticeQuestionNine.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionNine.c; sourceTree = "<group>"; };
+		08C033CA20B01E290004576D /* WDChapterTwoPointTheePracticeQuestionTen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionTen.h; sourceTree = "<group>"; };
+		08C033CB20B01E290004576D /* WDChapterTwoPointTheePracticeQuestionTen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionTen.c; sourceTree = "<group>"; };
+		08C033CD20B020030004576D /* WDChapterTwoPointTheePracticeQuestionEleven.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionEleven.h; sourceTree = "<group>"; };
+		08C033CE20B020030004576D /* WDChapterTwoPointTheePracticeQuestionEleven.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionEleven.c; sourceTree = "<group>"; };
+		08C033D120B020E60004576D /* WDChapterTwoPointTheePracticeQuestionTwelve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionTwelve.h; sourceTree = "<group>"; };
+		08C033D220B020E60004576D /* WDChapterTwoPointTheePracticeQuestionTwelve.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionTwelve.c; sourceTree = "<group>"; };
+		08C033D420B022710004576D /* WDChapterTwoPointTheePracticeQuestionThirteen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionThirteen.h; sourceTree = "<group>"; };
+		08C033D520B022710004576D /* WDChapterTwoPointTheePracticeQuestionThirteen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionThirteen.c; sourceTree = "<group>"; };
+		08C033D720B0231C0004576D /* WDChapterTwoPointTheePracticeQuestionFourteen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionFourteen.h; sourceTree = "<group>"; };
+		08C033D820B0231C0004576D /* WDChapterTwoPointTheePracticeQuestionFourteen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionFourteen.c; sourceTree = "<group>"; };
+		08C033DA20B026810004576D /* WDChapterTwoPointTheePracticeQuestionFifteen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionFifteen.h; sourceTree = "<group>"; };
+		08C033DB20B026810004576D /* WDChapterTwoPointTheePracticeQuestionFifteen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionFifteen.c; sourceTree = "<group>"; };
+		08C033DD20B029AF0004576D /* WDChapterTwoPointTheePracticeQuestionSixteen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionSixteen.h; sourceTree = "<group>"; };
+		08C033DE20B029AF0004576D /* WDChapterTwoPointTheePracticeQuestionSixteen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionSixteen.c; sourceTree = "<group>"; };
+		08C033E120B02A9F0004576D /* WDChapterTwoPointTheePracticeQuestionSeventeen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionSeventeen.h; sourceTree = "<group>"; };
+		08C033E220B02A9F0004576D /* WDChapterTwoPointTheePracticeQuestionSeventeen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionSeventeen.c; sourceTree = "<group>"; };
+		08C033E520B02E630004576D /* WDChapterTwoPointTheePracticeQuestionEighteen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionEighteen.h; sourceTree = "<group>"; };
+		08C033E620B02E630004576D /* WDChapterTwoPointTheePracticeQuestionEighteen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionEighteen.c; sourceTree = "<group>"; };
+		08C033E820B031B60004576D /* WDChapterTwoPointTheePracticeQuestionNineteen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionNineteen.h; sourceTree = "<group>"; };
+		08C033E920B031B60004576D /* WDChapterTwoPointTheePracticeQuestionNineteen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionNineteen.c; sourceTree = "<group>"; };
+		08C033EC20B03C750004576D /* WDChapterTwoPointTheePracticeQuestionTwenty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionTwenty.h; sourceTree = "<group>"; };
+		08C033ED20B03C750004576D /* WDChapterTwoPointTheePracticeQuestionTwenty.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionTwenty.c; sourceTree = "<group>"; };
+		08C033EF20B03E250004576D /* WDChapterTwoPointTheePracticeQuestionTwentyOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionTwentyOne.h; sourceTree = "<group>"; };
+		08C033F020B03E250004576D /* WDChapterTwoPointTheePracticeQuestionTwentyOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionTwentyOne.c; sourceTree = "<group>"; };
+		08C033F220B041090004576D /* WDChapterTwoPointTheePracticeQuestionTwentyTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionTwentyTwo.h; sourceTree = "<group>"; };
+		08C033F320B041090004576D /* WDChapterTwoPointTheePracticeQuestionTwentyTwo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionTwentyTwo.c; sourceTree = "<group>"; };
+		08C033F520B0421C0004576D /* WDChapterTwoPointTheePracticeQuestionTwentyThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDChapterTwoPointTheePracticeQuestionTwentyThree.h; sourceTree = "<group>"; };
+		08C033F620B0421C0004576D /* WDChapterTwoPointTheePracticeQuestionTwentyThree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WDChapterTwoPointTheePracticeQuestionTwentyThree.c; sourceTree = "<group>"; };
 		08CEA17820708B1C0011DDD7 /* LCBChapterTwoExampleThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterTwoExampleThree.h; sourceTree = "<group>"; };
 		08CEA17920708B1C0011DDD7 /* LCBChapterTwoExampleThree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoExampleThree.c; sourceTree = "<group>"; };
 		08D6CF0E20A5981600CC8998 /* LCBXXZDChapterOneAlgorithmDesignSeven.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBXXZDChapterOneAlgorithmDesignSeven.h; sourceTree = "<group>"; };
@@ -518,8 +587,94 @@
 			children = (
 				081045E220ADA20A00E3617E /* SqList */,
 				081045EC20ADA68E00E3617E /* OrderSqList */,
+				08C033AE20B009920004576D /* LinkList */,
+				08C033D020B020A00004576D /* OrderLinkList */,
+				08C033E020B02A720004576D /* CDLinkList */,
+				08C033E420B02E3C0004576D /* CLinkList */,
+				08C033EB20B03C3F0004576D /* DLinkList */,
 			);
 			path = WDChapterTwo;
+			sourceTree = "<group>";
+		};
+		08C033AE20B009920004576D /* LinkList */ = {
+			isa = PBXGroup;
+			children = (
+				08C033AF20B00A990004576D /* WDChapterTwoPointTheePracticeQuestionOne.h */,
+				08C033B020B00A990004576D /* WDChapterTwoPointTheePracticeQuestionOne.c */,
+				08C033B220B00E7E0004576D /* WDChapterTwoPointTheePracticeQuestionTwo.h */,
+				08C033B320B00E7E0004576D /* WDChapterTwoPointTheePracticeQuestionTwo.c */,
+				08C033B520B010CA0004576D /* WDChapterTwoPointTheePracticeQuestionThree.h */,
+				08C033B620B010CA0004576D /* WDChapterTwoPointTheePracticeQuestionThree.c */,
+				08C033B820B0116A0004576D /* WDChapterTwoPointTheePracticeQuestionFour.h */,
+				08C033B920B0116A0004576D /* WDChapterTwoPointTheePracticeQuestionFour.c */,
+				08C033BB20B013BC0004576D /* WDChapterTwoPointTheePracticeQuestionFive.h */,
+				08C033BC20B013BC0004576D /* WDChapterTwoPointTheePracticeQuestionFive.c */,
+				08C033BE20B015A20004576D /* WDChapterTwoPointTheePracticeQuestionSix.h */,
+				08C033BF20B015A20004576D /* WDChapterTwoPointTheePracticeQuestionSix.c */,
+				08C033C120B017890004576D /* WDChapterTwoPointTheePracticeQuestionSeven.h */,
+				08C033C220B017890004576D /* WDChapterTwoPointTheePracticeQuestionSeven.c */,
+				08C033C420B0184A0004576D /* WDChapterTwoPointTheePracticeQuestionEight.h */,
+				08C033C520B0184A0004576D /* WDChapterTwoPointTheePracticeQuestionEight.c */,
+				08C033C720B01BE80004576D /* WDChapterTwoPointTheePracticeQuestionNine.h */,
+				08C033C820B01BE80004576D /* WDChapterTwoPointTheePracticeQuestionNine.c */,
+				08C033CA20B01E290004576D /* WDChapterTwoPointTheePracticeQuestionTen.h */,
+				08C033CB20B01E290004576D /* WDChapterTwoPointTheePracticeQuestionTen.c */,
+				08C033CD20B020030004576D /* WDChapterTwoPointTheePracticeQuestionEleven.h */,
+				08C033CE20B020030004576D /* WDChapterTwoPointTheePracticeQuestionEleven.c */,
+				08C033DD20B029AF0004576D /* WDChapterTwoPointTheePracticeQuestionSixteen.h */,
+				08C033DE20B029AF0004576D /* WDChapterTwoPointTheePracticeQuestionSixteen.c */,
+				08C033EF20B03E250004576D /* WDChapterTwoPointTheePracticeQuestionTwentyOne.h */,
+				08C033F020B03E250004576D /* WDChapterTwoPointTheePracticeQuestionTwentyOne.c */,
+				08C033F220B041090004576D /* WDChapterTwoPointTheePracticeQuestionTwentyTwo.h */,
+				08C033F320B041090004576D /* WDChapterTwoPointTheePracticeQuestionTwentyTwo.c */,
+				08C033F520B0421C0004576D /* WDChapterTwoPointTheePracticeQuestionTwentyThree.h */,
+				08C033F620B0421C0004576D /* WDChapterTwoPointTheePracticeQuestionTwentyThree.c */,
+			);
+			path = LinkList;
+			sourceTree = "<group>";
+		};
+		08C033D020B020A00004576D /* OrderLinkList */ = {
+			isa = PBXGroup;
+			children = (
+				08C033D120B020E60004576D /* WDChapterTwoPointTheePracticeQuestionTwelve.h */,
+				08C033D220B020E60004576D /* WDChapterTwoPointTheePracticeQuestionTwelve.c */,
+				08C033D420B022710004576D /* WDChapterTwoPointTheePracticeQuestionThirteen.h */,
+				08C033D520B022710004576D /* WDChapterTwoPointTheePracticeQuestionThirteen.c */,
+				08C033D720B0231C0004576D /* WDChapterTwoPointTheePracticeQuestionFourteen.h */,
+				08C033D820B0231C0004576D /* WDChapterTwoPointTheePracticeQuestionFourteen.c */,
+				08C033DA20B026810004576D /* WDChapterTwoPointTheePracticeQuestionFifteen.h */,
+				08C033DB20B026810004576D /* WDChapterTwoPointTheePracticeQuestionFifteen.c */,
+			);
+			path = OrderLinkList;
+			sourceTree = "<group>";
+		};
+		08C033E020B02A720004576D /* CDLinkList */ = {
+			isa = PBXGroup;
+			children = (
+				08C033E120B02A9F0004576D /* WDChapterTwoPointTheePracticeQuestionSeventeen.h */,
+				08C033E220B02A9F0004576D /* WDChapterTwoPointTheePracticeQuestionSeventeen.c */,
+			);
+			path = CDLinkList;
+			sourceTree = "<group>";
+		};
+		08C033E420B02E3C0004576D /* CLinkList */ = {
+			isa = PBXGroup;
+			children = (
+				08C033E520B02E630004576D /* WDChapterTwoPointTheePracticeQuestionEighteen.h */,
+				08C033E620B02E630004576D /* WDChapterTwoPointTheePracticeQuestionEighteen.c */,
+				08C033E820B031B60004576D /* WDChapterTwoPointTheePracticeQuestionNineteen.h */,
+				08C033E920B031B60004576D /* WDChapterTwoPointTheePracticeQuestionNineteen.c */,
+			);
+			path = CLinkList;
+			sourceTree = "<group>";
+		};
+		08C033EB20B03C3F0004576D /* DLinkList */ = {
+			isa = PBXGroup;
+			children = (
+				08C033EC20B03C750004576D /* WDChapterTwoPointTheePracticeQuestionTwenty.h */,
+				08C033ED20B03C750004576D /* WDChapterTwoPointTheePracticeQuestionTwenty.c */,
+			);
+			path = DLinkList;
 			sourceTree = "<group>";
 		};
 		08D6CF0D20A5979D00CC8998 /* LCBXXZDChapterOne */ = {
@@ -751,6 +906,11 @@
 				08A82FA520AD74800051A6A4 /* LCBXXZDChapterTwoAlgorithmDesignSeventeen.c in Sources */,
 				0805D2B120AAE1DF0022060E /* LCBChapterTwoExampleThirteen.c in Sources */,
 				081F4FFD20AC31710003E618 /* LCBXXZDChapterTwoAlgorithmDesignTwo.c in Sources */,
+				08C033E720B02E630004576D /* WDChapterTwoPointTheePracticeQuestionEighteen.c in Sources */,
+				08C033EA20B031B60004576D /* WDChapterTwoPointTheePracticeQuestionNineteen.c in Sources */,
+				08C033CF20B020030004576D /* WDChapterTwoPointTheePracticeQuestionEleven.c in Sources */,
+				08C033B720B010CA0004576D /* WDChapterTwoPointTheePracticeQuestionThree.c in Sources */,
+				08C033B120B00A990004576D /* WDChapterTwoPointTheePracticeQuestionOne.c in Sources */,
 				08A82F9020AD60D20051A6A4 /* LCBXXZDChapterTwoAlgorithmDesignEleven.c in Sources */,
 				08A82FA820AD781A0051A6A4 /* LCBXXZDChapterTwoAlgorithmDesignEighteen.c in Sources */,
 				080FFF00206CB00100531313 /* LCBChapterOneExampleThirteen.c in Sources */,
@@ -774,6 +934,7 @@
 				08525F2D20A716B00004C7F0 /* LCBChapterTwoExampleFive.c in Sources */,
 				08CEA17A20708B1C0011DDD7 /* LCBChapterTwoExampleThree.c in Sources */,
 				08A82FB720AD874E0051A6A4 /* LCBXXZDChapterTwoAlgorithmDesignTwentyTwo.c in Sources */,
+				08C033D320B020E60004576D /* WDChapterTwoPointTheePracticeQuestionTwelve.c in Sources */,
 				0805D2AE20AAD9C60022060E /* LCBChapterTwoExampleTwelve.c in Sources */,
 				08F4DF8F20A98AED003070EA /* LCBChapterTwoCDLinklist.c in Sources */,
 				08A82F9C20AD6E510051A6A4 /* LCBXXZDChapterTwoAlgorithmDesignFifteen.c in Sources */,
@@ -784,6 +945,7 @@
 				081045F520ADAD0A00E3617E /* WDChapterTwoPracticeQuestionSix.c in Sources */,
 				08A82FB420AD84B10051A6A4 /* LCBXXZDChapterTwoAlgorithmDesignTwentyOne.c in Sources */,
 				088FA6C6206A057B007D71C6 /* main.c in Sources */,
+				08C033D920B0231C0004576D /* WDChapterTwoPointTheePracticeQuestionFourteen.c in Sources */,
 				08F4DF8920A97862003070EA /* LCBChapterTwoExampleNine.c in Sources */,
 				08272B752070C8D800871D68 /* LCBChapterTwoDLinkList.c in Sources */,
 				08EAAECE20AB0F2F00A946B9 /* LCBChapterTwoPracticeQuestionSix.c in Sources */,
@@ -794,18 +956,29 @@
 				089FC2C9206F52F600202210 /* WDChapterOneMindExtend.c in Sources */,
 				08D6CF1020A5981600CC8998 /* LCBXXZDChapterOneAlgorithmDesignSeven.c in Sources */,
 				080FFF06206CBF0700531313 /* LCBChapterOneMachineExperimentTwo.c in Sources */,
+				08C033C320B017890004576D /* WDChapterTwoPointTheePracticeQuestionSeven.c in Sources */,
 				081F501220AC5DAA0003E618 /* LCBXXZDChapterTwoAlgorithmDesignNine.c in Sources */,
 				08FD5D1D20AEBF6900A036B7 /* WDChapterTwoPracticeQuestionTen.c in Sources */,
+				08C033EE20B03C750004576D /* WDChapterTwoPointTheePracticeQuestionTwenty.c in Sources */,
+				08C033BD20B013BC0004576D /* WDChapterTwoPointTheePracticeQuestionFive.c in Sources */,
 				081045E820ADA53100E3617E /* WDChapterTwoPracticeQuestionTwo.c in Sources */,
 				08AF8DB320A82C0500B1E55C /* LCBChapterTwoExampleSeven.c in Sources */,
 				081F500020AC36150003E618 /* LCBXXZDChapterTwoAlgorithmDesignThree.c in Sources */,
 				08272B6C20709EAC00871D68 /* LCBChapterTwoExampleFour.c in Sources */,
+				08C033C620B0184A0004576D /* WDChapterTwoPointTheePracticeQuestionEight.c in Sources */,
+				08C033B420B00E7E0004576D /* WDChapterTwoPointTheePracticeQuestionTwo.c in Sources */,
 				08AF8DB020A827B600B1E55C /* LCBChapterTwoExampleSix.c in Sources */,
+				08C033E320B02A9F0004576D /* WDChapterTwoPointTheePracticeQuestionSeventeen.c in Sources */,
+				08C033DF20B029AF0004576D /* WDChapterTwoPointTheePracticeQuestionSixteen.c in Sources */,
 				08A82FB120AD80E30051A6A4 /* LCBXXZDChapterTwoAlgorithmDesignTwenty.c in Sources */,
 				0805D2A820AACA9F0022060E /* LCBChapterTwoOrderSqList.c in Sources */,
 				081F500C20AC59A30003E618 /* LCBXXZDChapterTwoAlgorithmDesignSeven.c in Sources */,
 				08A82FC720AD94060051A6A4 /* LCBXXZDChapterTwoAlgorithmDesignTwentySeven.c in Sources */,
+				08C033F420B041090004576D /* WDChapterTwoPointTheePracticeQuestionTwentyTwo.c in Sources */,
 				08F4DF8C20A97BED003070EA /* LCBChapterTwoCLinkList.c in Sources */,
+				08C033C920B01BE80004576D /* WDChapterTwoPointTheePracticeQuestionNine.c in Sources */,
+				08C033D620B022710004576D /* WDChapterTwoPointTheePracticeQuestionThirteen.c in Sources */,
+				08C033BA20B0116A0004576D /* WDChapterTwoPointTheePracticeQuestionFour.c in Sources */,
 				081045FB20ADB13100E3617E /* WDChapterTwoPracticeQuestionEight.c in Sources */,
 				08FD5D2320AEC7E600A036B7 /* WDChapterTwoPracticeQuestionTwelve.c in Sources */,
 				08F4DFA520A99C26003070EA /* LCBChapterTwoListApplicationOne.c in Sources */,
@@ -813,10 +986,15 @@
 				08A82FBE20AD8B0E0051A6A4 /* LCBXXZDChapterTwoAlgorithmDesignTwentyFour.c in Sources */,
 				08EEF5EA20A455BC009345C4 /* LCBChapterOnePracticeQuestionFour.c in Sources */,
 				081F4FF620AC2BAF0003E618 /* LCBChapterTwoMachineExperimentSeven.c in Sources */,
+				08C033F120B03E250004576D /* WDChapterTwoPointTheePracticeQuestionTwentyOne.c in Sources */,
+				08C033F720B0421C0004576D /* WDChapterTwoPointTheePracticeQuestionTwentyThree.c in Sources */,
 				081F4FFA20AC2FF50003E618 /* LCBXXZDChapterTwoAlgorithmDesignOne.c in Sources */,
 				08AF8DB620A8457D00B1E55C /* LCBChapterTwoExampleEight.c in Sources */,
 				081F500320AC387F0003E618 /* LCBXXZDChapterTwoAlgorithmDesignFour.c in Sources */,
+				08C033CC20B01E290004576D /* WDChapterTwoPointTheePracticeQuestionTen.c in Sources */,
 				08D6CF1320A5997200CC8998 /* LCBXXZDChapterOneAlgorithmDesignEight.c in Sources */,
+				08C033DC20B026810004576D /* WDChapterTwoPointTheePracticeQuestionFifteen.c in Sources */,
+				08C033C020B015A20004576D /* WDChapterTwoPointTheePracticeQuestionSix.c in Sources */,
 				08A82F9320AD62550051A6A4 /* LCBXXZDChapterTwoAlgorithmDesignTwelve.c in Sources */,
 				089FC2CC206F581100202210 /* LCBChapterTwoSqList.c in Sources */,
 				080FFF03206CB82200531313 /* LCBChapterOneMachineExperimentOne.c in Sources */,
