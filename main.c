@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-#include "WDChapterTwoPointTheePracticeQuestionTwentyThree.h"
+#include "WDChapterTwoMindExtend.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -18,10 +18,9 @@ int main(int argc, const char * argv[]) {
     int arrayTwo[] = {2,3,4,5,6,7,8,9};
     int arrayThree[] = {-20,22,12,-21,2,10,2,0,0,-10,0,1};
     int arrayFour[] = {01,01,01,01,7};
-    LinkList *list = createLinkListR(array, 0);
-    dispLinkList(list);
-    deleteAllSameAbsValue(list, 20);
-    dispLinkList(list);
+    SqList *list = createSqList(array, 20) ;
+    dispSqList(list);
+    findOutSumTwoElementEqualValue(list, 9);
     
     
 

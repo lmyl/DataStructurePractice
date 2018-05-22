@@ -13,6 +13,7 @@
 void displayIncreaseLinkList(LinkList *list)  {
     sortIncreaseLinkListWDDesign(list);
     LinkList *next = list->next;
+    free(list) ;
     list = NULL ;
     printf("(");
     while (next != NULL) {
@@ -22,4 +23,29 @@ void displayIncreaseLinkList(LinkList *list)  {
         next = list ;
     }
     printf(")\n");
+}
+
+
+void displayIncreaseLinkListAnotherSolution(LinkList *list)  {
+    LinkList *minPre = list ,*min = list->next;
+    LinkList *nextPre = list;
+    LinkList *next = list->next;
+    while (next != NULL) {
+        if (next->data < min->data) {
+            minPre = nextPre;
+            min = next ;
+        }
+        next = next->next;
+        nextPre = nextPre->next ;
+    }
+    if (list->next == NULL) {
+        free(list);
+        list = NULL;
+        return ;
+    }else{
+        minPre->next = min->next ;
+        printf("%d  ",min->data);
+        free(min);
+        displayIncreaseLinkListAnotherSolution(list);
+    }
 }

@@ -26,3 +26,20 @@ void reverseDisplayLinkList(LinkList *list) {
     }
     printf(")\n");
 }
+
+void reverseDisplayLinkListRecursive(LinkList *list) ;
+
+void reverseDisplayLinkListAnotherSolution(LinkList *list) {
+    printf("(");
+    if (list->next != NULL) {
+        reverseDisplayLinkListRecursive(list->next);
+    }
+    printf(")\n");
+}
+
+void reverseDisplayLinkListRecursive(LinkList *list){
+    if (list->next != NULL) {
+        reverseDisplayLinkListRecursive(list->next);
+    }
+    printf("%d  ",list->data) ;
+}

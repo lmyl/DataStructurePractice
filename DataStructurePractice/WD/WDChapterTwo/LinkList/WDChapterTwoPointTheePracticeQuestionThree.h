@@ -17,4 +17,5 @@
 
 void reverseDisplayLinkList(LinkList *list) ;
 
+void reverseDisplayLinkListAnotherSolution(LinkList *list);
 #endif /* WDChapterTwoPointTheePracticeQuestionThree_h */

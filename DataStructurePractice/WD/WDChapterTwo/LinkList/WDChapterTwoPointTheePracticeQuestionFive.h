@@ -17,4 +17,7 @@
 
 void reverseLinkListWDDesign(LinkList *list) ;
 
+//反转节点指针
+void reverseLinkListWDDesignAnotherSolution(LinkList *list) ;
+
 #endif /* WDChapterTwoPointTheePracticeQuestionFive_h */

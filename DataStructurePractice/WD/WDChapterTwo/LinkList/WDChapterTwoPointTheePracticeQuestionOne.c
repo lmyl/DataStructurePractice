@@ -32,3 +32,20 @@ LinkList * deleteAllElementEqualValueInNoHeadNodeLinklist(LinkList *list,int num
     }
     return result ;
 }
+
+
+LinkList * deleteAllElementEqualValueInNoHeadNodeLinklistAnotherSolution(LinkList *list,int number) {
+    LinkList *temp ;
+    if (list == NULL) {
+        return NULL;
+    }
+    if (list->data == number) {
+        temp = list ;
+        list = list->next;
+        free(temp);
+        deleteAllElementEqualValueInNoHeadNodeLinklistAnotherSolution(list, number);
+    }else{
+        deleteAllElementEqualValueInNoHeadNodeLinklistAnotherSolution(list->next, number);
+    }
+    return NULL ;
+}

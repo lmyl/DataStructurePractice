@@ -15,4 +15,7 @@
 
 LinkList * deleteAllElementEqualValueInNoHeadNodeLinklist(LinkList *list,int number) ;
 
+
+LinkList *deleteAllElementEqualValueInNoHeadNodeLinklistAnotherSolution(LinkList *list,int number);
+
 #endif /* WDChapterTwoPointTheePracticeQuestionOne_h */

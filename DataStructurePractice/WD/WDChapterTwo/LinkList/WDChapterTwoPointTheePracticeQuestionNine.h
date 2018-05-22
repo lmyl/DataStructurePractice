@@ -17,4 +17,7 @@
 
 void displayIncreaseLinkList(LinkList *list) ;
 
+
+void displayIncreaseLinkListAnotherSolution(LinkList *list) ;
+
 #endif /* WDChapterTwoPointTheePracticeQuestionNine_h */
