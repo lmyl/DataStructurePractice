@@ -8,13 +8,12 @@
 
 #include <stdio.h>
 
-#include "LCBChapterThreeStackApplicationOne.h"
+#include "LCBChapterThreePracticeQuestionFive.h"
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
-    expressionSolutionByStack();
     
 
     

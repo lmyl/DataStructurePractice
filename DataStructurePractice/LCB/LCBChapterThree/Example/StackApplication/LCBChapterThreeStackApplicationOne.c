@@ -28,6 +28,17 @@ int operatorsRankCompare(char left , char right) ;
 
 void displaySuffixExpression(SqStack *suffixExpression) ;   //调试用
 
+
+
+void expressionSolutionByStack(void)  {
+    char input ;
+    inputExpression(&input);
+    SqStack *suffix = changeToSuffixExpression(&input);
+    int result = suffixExpressionSolveValue(suffix);
+    printf("%d\n",result);
+    exit(0);    //编译器未知错误，需要在此处终止程序
+}
+
 int suffixExpressionSolveValue(SqStack *stack) {
     SqStack *finalCountStack = initSqStack() ;
     int intResult ;
@@ -85,15 +96,6 @@ int suffixExpressionSolveValue(SqStack *stack) {
         printf("未知错误！");
         exit(1);
     }
-}
-
-void expressionSolutionByStack(void)  {
-    char input ;
-    inputExpression(&input);
-    SqStack *suffix = changeToSuffixExpression(&input);
-    int result = suffixExpressionSolveValue(suffix);
-    printf("%d\n",result);
-    exit(0);    //编译器未知错误，需要在此处终止程序
 }
 
 SqStack * changeToSuffixExpression(char *input) {
