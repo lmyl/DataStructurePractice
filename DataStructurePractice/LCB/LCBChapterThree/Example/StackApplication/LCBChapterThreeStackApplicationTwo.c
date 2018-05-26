@@ -42,6 +42,7 @@ void displayWay(mazeStack mazeWayStack) ;
 
 bool findMazeOfExport(int inportRow,int inportCol,int exportRow,int exportCol) {
     mazeBox inportBox = {inportRow,inportCol,-1};
+    mazeMap[inportRow][inportCol] = -1;
     mazeStack mazeWayStack ;
     mazeWayStack.top = 0 ;
     mazeWayStack.data[mazeWayStack.top] = inportBox ;
@@ -54,6 +55,9 @@ bool findMazeOfExport(int inportRow,int inportCol,int exportRow,int exportCol) {
         mazeBox nextBox ;
         while (getOutTopMazeBox.next < 4) {
             getOutTopMazeBox.next ++ ;
+            if (getOutTopMazeBox.next == 4) {
+                break ;
+            }
             switch (getOutTopMazeBox.next) {
                 case 0:
                     nextBox.col = getOutTopMazeBox.col ;
@@ -70,7 +74,7 @@ bool findMazeOfExport(int inportRow,int inportCol,int exportRow,int exportCol) {
                     nextBox.row = getOutTopMazeBox.row + 1;
                     nextBox.next = -1 ;
                     break ;
-                default:
+                case 3:
                     nextBox.col = getOutTopMazeBox.col - 1;
                     nextBox.row = getOutTopMazeBox.row ;
                     nextBox.next = -1 ;
