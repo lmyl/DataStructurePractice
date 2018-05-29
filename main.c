@@ -8,14 +8,19 @@
 
 #include <stdio.h>
 
-#include "WDChapterThreePointThreePracticeQuestionFour.h"
+#include "LCBChapterFourExampleThree.h"
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
     
-    ferryManagerSystem();
+    LiString *string = initLiString();
+    LiStringAssign(string, "aqwerabtyuiopadefbdefab");
+    displayLiString(string);
+    printf("%d\n",changABToXYZInLiString(string));
+    displayLiString(string) ;
+    
 
     
     return 0;
