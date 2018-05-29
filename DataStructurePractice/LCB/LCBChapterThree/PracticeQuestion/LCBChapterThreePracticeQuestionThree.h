@@ -12,6 +12,8 @@
 #include <stdio.h>
 #include "LCBChapterThreeSqStack.h"
 
+
+//匹配表达式(,[,{是否正确
 bool judgementBracketsMatch(char *input) ;
 
 #endif /* LCBChapterThreePracticeQuestionThree_h */

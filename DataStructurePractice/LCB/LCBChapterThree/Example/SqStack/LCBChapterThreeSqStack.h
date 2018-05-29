@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#define MaxSize 500
+#define MaxSize 5
 
 typedef int ElemType;
 

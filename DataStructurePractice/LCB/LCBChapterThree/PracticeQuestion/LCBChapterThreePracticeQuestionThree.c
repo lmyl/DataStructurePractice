@@ -37,5 +37,10 @@ bool judgementBracketsMatch(char *input)  {
         }
         count ++ ;
     }
-    return true ;
+    if (stackSqEmpty(stack)) {
+        return true ;
+    }else{
+        return false;
+    }
+    
 }
