@@ -8,18 +8,15 @@
 
 #include <stdio.h>
 
-#include "LCBChapterFourExampleThree.h"
+#include "LCBChapterFiveMachineExperimentTwo.h"
+
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
+    knapsackProblem(10);
     
-    LiString *string = initLiString();
-    LiStringAssign(string, "aqwerabtyuiopadefbdefab");
-    displayLiString(string);
-    printf("%d\n",changABToXYZInLiString(string));
-    displayLiString(string) ;
     
 
     
