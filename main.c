@@ -8,16 +8,12 @@
 
 #include <stdio.h>
 
-#include "LCBChapterFiveMachineExperimentTwo.h"
-
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
-    knapsackProblem(10);
-    
-    
+
 
     
     return 0;

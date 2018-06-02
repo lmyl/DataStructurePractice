@@ -32,7 +32,7 @@ void displayReverseNoHeadLinkList(LinkList *list) {
     printf("%d  ",list->data) ;
 }
 
-void deleteTheFirstElementEqualValueInNoHeadLinkList(LinkList *list,int value) {
+void deleteTheFirstElementEqualValueInNoHeadLinkList(LinkList * list,int value) {
     if (list == NULL) {
         return ;
     }
