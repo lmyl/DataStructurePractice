@@ -7,18 +7,17 @@
 //
 
 #include <stdio.h>
-#include "LCBChapterSixPracticeQuestionSeven.h"
+#include "LCBChapterSixMachineExperimentFive.h"
 
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-
-    char data[] = "(4,5,7,(#),(7,8,(#),(9,0,(8))),8)";
-    GeneralTable *list = createGeneralTable(data);
-    char dataTwo[] = "(4,5,7,8,(#),(7,8,(#),(9,0,(8))),8)";
-    GeneralTable *listTwo = createGeneralTable(dataTwo);
-    printf("%d\n",isEqualGeneralTable(list, listTwo));
+    char string[] = "((((((1,2,3,4,5)),8)),9))";
+    GeneralTable *list = createGeneralTable(string);
+    displayGeneralTable(list);
+    printf("%c",returnTheMaxAtomInGeneralTable(list));
+    
     
     return 0;
 } 

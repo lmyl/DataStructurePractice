@@ -59,7 +59,7 @@ bool valueAssignmentTSMatrix(TSMatrix *matrix , ElemType element , int row ,int 
 }
 
 bool assignmentToElement(TSMatrix matrix , ElemType *element , int row,int col) {
-    if (row > matrix.rows || col > matrix.cols || row <= 0 || col <= 0) {
+    if (row > matrix.rows || col > matrix.cols || row < 0 || col < 0) {
         return false ;
     }
     int location = 0 ;
@@ -69,10 +69,10 @@ bool assignmentToElement(TSMatrix matrix , ElemType *element , int row,int col) 
     if (location == matrix.numbers || matrix.data[location].row > row) {
         return false ;
     }
-    while (location < matrix.numbers && matrix.data[location].row == row && matrix.data[location].row < col ) {
+    while (location < matrix.numbers && matrix.data[location].row == row && matrix.data[location].col < col ) {
         location ++ ;
     }
-    if (location == matrix.numbers || matrix.data[location].row > row || matrix.data[location].row > col) {
+    if (location == matrix.numbers || matrix.data[location].row > row || matrix.data[location].col > col) {
         return false ;
     }
     *element = matrix.data[location].data ;
