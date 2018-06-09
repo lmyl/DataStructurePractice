@@ -80,7 +80,7 @@ GeneralTable * createGeneralTableByRecursive(char string[],int *countLocation) {
             return NULL ;
         }else { //设置节点信息tag = 0
             next->tag = 0 ;
-            next->value.data = string[*countLocation] ;
+            next->value.data = (int )string[*countLocation] ;
         }
         *countLocation = *countLocation + 1 ;   //数组继续往后扫描一个
     }
