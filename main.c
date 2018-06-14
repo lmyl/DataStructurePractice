@@ -7,20 +7,20 @@
 //
 
 #include <stdio.h>
-#include "LCBXXZDChapterSixAlgorithmDesignNine.h"
+#include "LCBChapterSevenThreadedBinaryTreeTraverse.h"
+
 
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
-    int dataOne[] = {0,0,1,0,3,2,1,2,3,2,1,4,2,3,5,-1} ;
-    int dataTwo[] = {0,0,1,0,3,2,1,2,3,2,1,4,2,3,5,-1} ;
-    int dataThree[16];
-    addSparseMatrixInCustomStyle(dataOne, dataTwo, dataThree);
-    for (int i = 0; dataThree[i] != -1; i = i+3) {
-        printf("(%d,%d,%d)  ",dataThree[i],dataThree[i+1],dataThree[i+2]);
-    }
+    char string[] = "A(C(,T(,I(,k,o))),U(R(,K(M,L))))";
+    BinaryTree *result = creatBinaryTree(string);
+    displayBinaryTree(result);
+    printf("\n");
+    ThreadedBinaryTree *resultOne = creatThreadedBinaryTreeByBinaryTree(result) ;
+    midTraverseThreadedBinaryTree(resultOne);
     printf("\n");
     
     return 0;
