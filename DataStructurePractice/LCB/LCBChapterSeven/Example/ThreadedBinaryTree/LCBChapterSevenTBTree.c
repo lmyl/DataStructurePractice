@@ -8,7 +8,7 @@
 
 #include "LCBChapterSevenTBTree.h"
 
-ThreadedBinaryTree *preNode ;
+ThreadedBinaryTree *preThreadedBinaryTreeNodeGobal ;
 
 ThreadedBinaryTree * creatThreadedBinaryTreeBase(BinaryTree *tree) ;
 void  creatThreadedBinaryTreeByBinaryTreeByRecursive(ThreadedBinaryTree *tree ) ;
@@ -19,14 +19,14 @@ ThreadedBinaryTree * creatThreadedBinaryTreeByBinaryTree(BinaryTree *tree)  {
         return root ;
     }
     ThreadedBinaryTree *binaryTreeBase = creatThreadedBinaryTreeBase(tree) ;
-    preNode = root ;
+    preThreadedBinaryTreeNodeGobal = root ;
     root->right = NULL ;
     root->leftTag = 0 ;
     creatThreadedBinaryTreeByBinaryTreeByRecursive(binaryTreeBase);
     root->left = binaryTreeBase ;
-    preNode->rightTag = 1;
-    preNode->right = root ;
-    root->right = preNode ;
+    preThreadedBinaryTreeNodeGobal->rightTag = 1;
+    preThreadedBinaryTreeNodeGobal->right = root ;
+    root->right = preThreadedBinaryTreeNodeGobal ;
     root->rightTag = 1 ;
     return root ;
 }
@@ -47,17 +47,17 @@ void creatThreadedBinaryTreeByBinaryTreeByRecursive(ThreadedBinaryTree *tree ) {
     creatThreadedBinaryTreeByBinaryTreeByRecursive(tree->left) ;
     if (tree ->left == NULL) {
         tree->leftTag = 1 ;
-        tree->left = preNode ;
+        tree->left = preThreadedBinaryTreeNodeGobal ;
     }else{
         tree->leftTag = 0 ;
     }
-    if (preNode->right == NULL) {
-        preNode->rightTag = 1;
-        preNode->right = tree ;
+    if (preThreadedBinaryTreeNodeGobal->right == NULL) {
+        preThreadedBinaryTreeNodeGobal->rightTag = 1;
+        preThreadedBinaryTreeNodeGobal->right = tree ;
     }else{
-        preNode->rightTag = 0 ;
+        preThreadedBinaryTreeNodeGobal->rightTag = 0 ;
     }
-    preNode = tree ;
+    preThreadedBinaryTreeNodeGobal = tree ;
     creatThreadedBinaryTreeByBinaryTreeByRecursive(tree->right) ;
 }
 

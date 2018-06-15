@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-#include "LCBChapterSevenThreadedBinaryTreeTraverse.h"
+#include "LCBChapterSevenPracticeQuestionTen.h"
 
 
 
@@ -19,8 +19,12 @@ int main(int argc, const char * argv[]) {
     BinaryTree *result = creatBinaryTree(string);
     displayBinaryTree(result);
     printf("\n");
-    ThreadedBinaryTree *resultOne = creatThreadedBinaryTreeByBinaryTree(result) ;
-    midTraverseThreadedBinaryTree(resultOne);
+    BinaryTree *an = result->right ;
+    BinaryTree *anot = result->left ;
+    BinaryTree *son = an->left->right ;
+    BinaryTree *sontwo = an->left->right->right ;
+    
+    printf("%d",isHaveCommonAncestorInBinaryTree(anot, son, sontwo));
     printf("\n");
     
     return 0;
