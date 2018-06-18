@@ -7,20 +7,9 @@
 //
 
 #include "LCBChapterSevenExampleThirteen.h"
-#define MaxSize 500
 
-typedef struct {
-    BinaryTree *data ;
-    int parent ;
-}BinaryTreeParentSonNode;
 
-typedef struct {
-    BinaryTreeParentSonNode data[MaxSize] ;
-    int front ;
-    int rear ;
-}BinaryTreeParentSonCSqQueue;
 
-BinaryTreeParentSonCSqQueue *initBinaryTreeParentSonCSqQueue(void );
 
 
 void displayAllLeafAncestorInBinaryTreeBylayerTraverse(BinaryTree *tree)  {
@@ -59,7 +48,7 @@ void displayAllLeafAncestorInBinaryTreeBylayerTraverse(BinaryTree *tree)  {
 
 BinaryTreeParentSonCSqQueue *initBinaryTreeParentSonCSqQueue(void ) {
     BinaryTreeParentSonCSqQueue *queue = (BinaryTreeParentSonCSqQueue *)malloc(sizeof(BinaryTreeParentSonCSqQueue));
-    queue->front = queue->rear = 0 ;
+    queue->front = queue->rear = -1 ;
     return queue ;
 }
 

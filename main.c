@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-#include "LCBChapterSevenPracticeQuestionTen.h"
+#include "LCBChapterSevenMachineExperimentSeven.h"
 
 
 
@@ -15,17 +15,13 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
 
-    char string[] = "A(C(,T(,I(,k,o))),U(R(,K(M,L))))";
+    char string[] = "-(+(1,*(2,3)),/(4,5))";
     BinaryTree *result = creatBinaryTree(string);
     displayBinaryTree(result);
     printf("\n");
-    BinaryTree *an = result->right ;
-    BinaryTree *anot = result->left ;
-    BinaryTree *son = an->left->right ;
-    BinaryTree *sontwo = an->left->right->right ;
-    
-    printf("%d",isHaveCommonAncestorInBinaryTree(anot, son, sontwo));
+    printf("%0.3f\n",solveExpressionValueByBinaryTree(result));
     printf("\n");
+
     
     return 0;
 } 

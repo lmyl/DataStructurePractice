@@ -12,6 +12,8 @@
 #include <stdio.h>
 #include "LCBChapterSevenBTree.h"
 
+
+//判断e是不是e1.e2共同的祖先
 bool isHaveCommonAncestorInBinaryTree(BinaryTree *ancestor, BinaryTree *sonOne , BinaryTree *sonTwo) ;
 
 #endif /* LCBChapterSevenPracticeQuestionTen_h */
