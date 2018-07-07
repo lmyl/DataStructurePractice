@@ -13,7 +13,7 @@
 #include "LCBChapterSevenExampleThirteen.h"
 
 
-//输出从叶子节点到根节点最长的路径
+//输出从叶子节点到根节点第一条最长的路径
 
 void displayTheLongestWayFromLeafToRoot(BinaryTree *tree) ;
 

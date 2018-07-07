@@ -9,9 +9,6 @@
 #include "LCBChapterSevenExampleThirteen.h"
 
 
-
-
-
 void displayAllLeafAncestorInBinaryTreeBylayerTraverse(BinaryTree *tree)  {
     BinaryTreeParentSonCSqQueue *queue = initBinaryTreeParentSonCSqQueue() ;
     queue->front = queue->rear = -1 ;

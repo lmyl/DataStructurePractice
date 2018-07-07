@@ -17,6 +17,6 @@
 
 //与 DataStructurePractice/DataStructurePractice/LCB/LCBChapterFour/Example/SqString/LCBChapterFourSqString 相同
 
-bool equalSqStringWDXXZD(SqString stringOne , SqString stringTwo) ;
+bool equalSqStringLCBXXZD(SqString stringOne , SqString stringTwo) ;
 
 #endif /* LCBXXZDChapterFourAlgorithmDesignTwo_h */

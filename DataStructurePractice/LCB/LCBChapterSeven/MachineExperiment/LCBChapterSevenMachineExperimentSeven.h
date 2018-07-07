@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include "LCBChapterSevenBTree.h"
 
+//求解表达式组成的二叉树
 double solveExpressionValueByBinaryTree(BinaryTree *tree) ;
 
 #endif /* LCBChapterSevenMachineExperimentSeven_h */

@@ -13,6 +13,7 @@ void mirrorSymmetryBinaryTree(BinaryTree *tree) {
     if (tree == NULL) {
         return ;
     }
+    
     BinaryTree *tempTree = tree->left ;
     tree->left = tree->right ;
     tree->right = tempTree ;

@@ -8,6 +8,6 @@
 
 #include "LCBXXZDChapterFourAlgorithmDesignTwo.h"
 
-bool equalSqStringWDXXZD(SqString stringOne , SqString stringTwo)  {
+bool equalSqStringLCBXXZD(SqString stringOne , SqString stringTwo)  {
     return SqStrEqual(stringOne, stringTwo) ;
 }

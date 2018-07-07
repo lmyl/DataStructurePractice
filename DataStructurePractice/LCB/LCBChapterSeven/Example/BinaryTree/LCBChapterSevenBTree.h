@@ -42,5 +42,4 @@ int binaryTreeHeight(BinaryTree *tree) ;
 void displayBinaryTree(BinaryTree *tree) ;
 
 
-
 #endif /* LCBChapterSevenBTree_h */
