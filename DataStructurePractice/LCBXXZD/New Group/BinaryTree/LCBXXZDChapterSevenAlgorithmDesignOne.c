@@ -8,7 +8,7 @@
 
 #include "LCBXXZDChapterSevenAlgorithmDesignOne.h"
 
-int solvingCommonAncientInSqBTree(sqBTree tree , int nodeOne , int nodetwo) {
+char solvingCommonAncientInSqBTree(sqBTree tree , int nodeOne , int nodetwo) {
     while (nodeOne != nodetwo) {
         if (nodetwo > nodeOne) {
             nodetwo = nodetwo / 2 ;

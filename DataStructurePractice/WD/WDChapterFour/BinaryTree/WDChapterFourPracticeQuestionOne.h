@@ -1,0 +1,19 @@
+//
+//  WDChapterFourPracticeQuestionOne.h
+//  DataStructurePractice
+//
+//  Created by ly on 2018/7/8.
+//  Copyright © 2018年 LY. All rights reserved.
+//
+
+#ifndef WDChapterFourPracticeQuestionOne_h
+#define WDChapterFourPracticeQuestionOne_h
+
+#include <stdio.h>
+#include "LCBXXZDChapterSevenAlgorithmDesignOne.h"
+
+//已知一颗二叉树按顺序方式存储在数组a[1..n]中，设计一个算法，求编号分别为i和j的两个节点的最近公共祖先
+//与 DataStructurePractice/DataStructurePractice/LCBXXZD/New Group/BinaryTree/LCBXXZDChapterSevenAlgorithmDesignOne.h 相同
+
+char solvingCommonAncientInSqBTreeByWD(sqBTree tree , int nodeOne , int nodetwo) ;
+#endif /* WDChapterFourPracticeQuestionOne_h */

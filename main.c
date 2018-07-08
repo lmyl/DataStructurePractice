@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-#include "LCBXXZDChapterSevenAlgorithmDesignNineteen.h"
+#include "WDChapterFourPracticeQuestionNineteen.h"
 
 
 
@@ -15,13 +15,11 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
 
-    char string[] = "-(+(1,*(3,4)),/(4,5))";
+    char string[] = "1(1(1,1(3,4)),1(4,5))";
     BinaryTree *result = creatBinaryTree(string);
     displayBinaryTree(result);
     printf("\n");
-    
-    
-    
+    printf("%d",slovingBinaryTreeWPL(result));
     printf("\n");
 
     
