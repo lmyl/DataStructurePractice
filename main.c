@@ -7,21 +7,18 @@
 //
 
 #include <stdio.h>
-#include "WDChapterFourPracticeQuestionNineteen.h"
-
+#include "WDChapterFourMindExtend.h"
 
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
-    char string[] = "1(1(1,1(3,4)),1(4,5))";
-    BinaryTree *result = creatBinaryTree(string);
-    displayBinaryTree(result);
-    printf("\n");
-    printf("%d",slovingBinaryTreeWPL(result));
-    printf("\n");
 
+    char string[] = "1(5(4,7),1(9(3,2)))";
+    BinaryTree *tree = creatBinaryTree(string) ;
+    
+    displayWeightEqualValueWayInBinaryTree(tree, 13);
     
     return 0;
 } 
