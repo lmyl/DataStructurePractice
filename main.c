@@ -7,19 +7,35 @@
 //
 
 #include <stdio.h>
-#include "WDChapterFourMindExtend.h"
-
+#include "LCBChapterEightExampleTwo.h"
+#include "LCBChapterEightPrim.h"
+#include "LCBChapterEightTopologicalSorting.h"
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
 
-    char string[] = "1(5(4,7),1(9(3,2)))";
-    BinaryTree *tree = creatBinaryTree(string) ;
+
+    int Matrix[MaxVertex][MaxVertex] = {
+        {0,1,0,0,0,0},
+        {0,0,1,0,0,0},
+        {0,0,0,1,0,0},
+        {0,0,0,0,0,0},
+        {0,1,0,0,0,1},
+        {0,0,0,1,0,0},
+    };
+    MGraph mgraph ;
+    for (int i= 0 ; i<6; i++) {
+        for (int j= 0; j<6; j++) {
+            mgraph.edges[i][j] = Matrix[i][j] ;
+        }
+    }
+    mgraph.edgesNumbers = 6;
+    mgraph.vertexsNumbers = 6 ;
+    ALGraph *algraph =  MatrixToList(mgraph) ;
     
-    displayWeightEqualValueWayInBinaryTree(tree, 13);
-    
+    TopologicalSort(algraph);
     return 0;
 } 
 
