@@ -20,7 +20,8 @@ typedef struct ANode {
 typedef struct {
     VertexType nodeInfo ;
     ArcNode * firstArcNode ;
-    int count ;
+    int countInDegree ;
+    int countOutDegree ;
 }VNode;
 
 typedef VNode NextList[MaxVertex];

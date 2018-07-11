@@ -8,8 +8,8 @@
 
 #include <stdio.h>
 #include "LCBChapterEightExampleTwo.h"
-#include "LCBChapterEightPrim.h"
-#include "LCBChapterEightTopologicalSorting.h"
+#include "LCBChapterEightGraphTraversing.h"
+#include "LCBChapterEightPracticeQuestionSeven.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -18,12 +18,11 @@ int main(int argc, const char * argv[]) {
 
 
     int Matrix[MaxVertex][MaxVertex] = {
-        {0,1,0,0,0,0},
-        {0,0,1,0,0,0},
-        {0,0,0,1,0,0},
-        {0,0,0,0,0,0},
-        {0,1,0,0,0,1},
-        {0,0,0,1,0,0},
+        {0,1,0,1,0},
+        {0,0,1,0,0},
+        {0,0,0,0,1},
+        {0,0,1,0,0},
+        {0,0,0,0,0}
     };
     MGraph mgraph ;
     for (int i= 0 ; i<6; i++) {
@@ -31,11 +30,12 @@ int main(int argc, const char * argv[]) {
             mgraph.edges[i][j] = Matrix[i][j] ;
         }
     }
-    mgraph.edgesNumbers = 6;
-    mgraph.vertexsNumbers = 6 ;
+    mgraph.edgesNumbers = 5;
+    mgraph.vertexsNumbers = 5 ;
     ALGraph *algraph =  MatrixToList(mgraph) ;
     
-    TopologicalSort(algraph);
+    DFSNoRecursive(algraph, 0);
+    DFS(algraph, 0);
     return 0;
 } 
 
