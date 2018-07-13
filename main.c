@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include "LCBChapterEightExampleTwo.h"
 #include "LCBChapterEightGraphTraversing.h"
-#include "LCBChapterEightPracticeQuestionSeven.h"
+#include "WDChapterFiveMindExtend.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -18,11 +18,12 @@ int main(int argc, const char * argv[]) {
 
 
     int Matrix[MaxVertex][MaxVertex] = {
-        {0,1,0,1,0},
-        {0,0,1,0,0},
-        {0,0,0,0,1},
-        {0,0,1,0,0},
-        {0,0,0,0,0}
+        {0,1,1,1,0,0},
+        {1,0,0,0,1,1},
+        {1,0,0,0,0,0},
+        {1,0,0,0,0,0},
+        {0,1,0,0,0,0},
+        {0,1,0,0,0,0}
     };
     MGraph mgraph ;
     for (int i= 0 ; i<6; i++) {
@@ -31,11 +32,10 @@ int main(int argc, const char * argv[]) {
         }
     }
     mgraph.edgesNumbers = 5;
-    mgraph.vertexsNumbers = 5 ;
+    mgraph.vertexsNumbers = 6 ;
     ALGraph *algraph =  MatrixToList(mgraph) ;
     
-    DFSNoRecursive(algraph, 0);
-    DFS(algraph, 0);
+    findAllCutPointInALGraph(algraph);
     return 0;
 } 
 

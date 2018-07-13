@@ -13,7 +13,7 @@
 #include "LCBChapterEightGraphTraversing.h"
 
 
-//图G采用邻接表存储，设计一个算法求图G中从顶点u到v是否存在简单路径
+//图G采用邻接表存储，设计一个算法求图G中从顶点u到v的简单路径
 
 void findPathInALGraph(ALGraph *graph,int startVertex , int endVertex) ;
 

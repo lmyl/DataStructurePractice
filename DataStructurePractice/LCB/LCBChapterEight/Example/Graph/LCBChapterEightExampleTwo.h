@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include "LCBChapterEightALGraph.h"
 
+#define INF 32767
 //设计不带权的图邻接表与邻接矩阵相互转换的算法，并判断时间复杂度
 
 ALGraph * MatrixToList(MGraph graph) ; //O(n^2)

@@ -14,7 +14,7 @@
 typedef struct ANode {
     int vertexNumber ;
     struct ANode * nextVertex ;
-    char info[10] ;
+    int info[10] ;
 }ArcNode;
 
 typedef struct {

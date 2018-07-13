@@ -17,9 +17,10 @@ ALGraph * MatrixToList(MGraph graph) {
     }
     for (int i = 0; i<graph.vertexsNumbers; i++) {
         for (int j = 0; j<graph.vertexsNumbers; j++) {
-            if (graph.edges[i][j] != 0) {
+            if (graph.edges[i][j] != 0 && graph.edges[i][j] != INF) {
                 ArcNode * node = initArcNode() ;
                 node->vertexNumber = j ;
+                node->info[0] = graph.edges[i][j] ;
                 node->nextVertex =  resultGraph->nextList[i].firstArcNode ;
                 resultGraph->nextList[i].firstArcNode = node ;
             }
