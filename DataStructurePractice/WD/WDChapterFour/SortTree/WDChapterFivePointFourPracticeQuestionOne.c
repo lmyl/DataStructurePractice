@@ -17,14 +17,15 @@ bool isSortedBinaryTree(BinaryTree *tree) {
         return true ;
     }
     
-    if (tree->left != NULL && tree->data <= findTheMaxInBinaryTreePrivate(tree->left)) {
+    if (tree->left != NULL && tree->data < findTheMaxInBinaryTreePrivate(tree->left)) {
         return false ;
     }
     
-    if (tree->right != NULL &&  findTheMinInBinaryTreePrivate(tree->right) <= tree->data) {
+    if (tree->right != NULL &&  findTheMinInBinaryTreePrivate(tree->right) < tree->data ) {
         return false ;
     }
-
+    
+    
     return isSortedBinaryTree(tree->left) && isSortedBinaryTree(tree->right) ;
 
 }

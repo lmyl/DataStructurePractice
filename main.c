@@ -7,35 +7,19 @@
 //
 
 #include <stdio.h>
-#include "LCBChapterEightExampleTwo.h"
-#include "LCBChapterEightGraphTraversing.h"
-#include "WDChapterFiveMindExtend.h"
+#include "LCBChapterNineMachineExperimentFive.h"
+
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
 
+    char data[MAXL] = "qwertyuiopasdfghjklzxcvbnmqazwsxedcrfvtgbyhnujmikolpp" ;
+    CharNodeByMachineExperiment * tree = creatCharNodeByString(data, 53) ;
+    displayCharNodeByMachineExperiment(tree);
 
-    int Matrix[MaxVertex][MaxVertex] = {
-        {0,1,1,1,0,0},
-        {1,0,0,0,1,1},
-        {1,0,0,0,0,0},
-        {1,0,0,0,0,0},
-        {0,1,0,0,0,0},
-        {0,1,0,0,0,0}
-    };
-    MGraph mgraph ;
-    for (int i= 0 ; i<6; i++) {
-        for (int j= 0; j<6; j++) {
-            mgraph.edges[i][j] = Matrix[i][j] ;
-        }
-    }
-    mgraph.edgesNumbers = 5;
-    mgraph.vertexsNumbers = 6 ;
-    ALGraph *algraph =  MatrixToList(mgraph) ;
-    
-    findAllCutPointInALGraph(algraph);
+
     return 0;
 } 
 
