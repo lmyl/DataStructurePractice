@@ -7,25 +7,18 @@
 //
 
 #include <stdio.h>
-#include "LCBChapterNineBSTree.h"
-#include "LCBXXZDChapterNineAlgorithmDesignFive.h"
-#include "LCBXXZDChapterNineAlgorithmDesignSix.h"
+#include "WDChapterSixMindExtend.h"
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
 
-    KeyType array[] = {7,9,6,4,3,5,12,0,1,-4,2} ;
+    int array[] = {5,5,5,3,-1,1,0,5} ;
+    SqList * list = createSqList(array, 8) ;
+    printf("%d\n",findOutMainElementTheBestSloveByWD(list)) ;
+    printf("%d\n",findOutMainElementTheBestSloveAnoterSlove(list)) ;
     
-    BSTNode *tree = creatBSTree(array, 11) ;
-    
-    displayBSTree(tree) ;
-    printf("\n");
-    displayNotLessThanValueInBSTree(tree, 6);
-    printf("\n") ;
-    KeyType squence[] = {7,6,4,3,0,1,2} ;
-    printf("%d\n",isSequenceOfSearchValueInBSTree(tree, 2, squence, 5));
     
     return 0;
 } 
