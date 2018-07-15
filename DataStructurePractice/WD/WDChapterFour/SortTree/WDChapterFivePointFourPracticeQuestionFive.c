@@ -15,6 +15,7 @@ void displayNotLessThanValueInSortedValue(BinaryTree *tree,ElemType value)  {
     displayNotLessThanValueInSortedValue(tree->right,value) ;
     if (tree->data >= value) {
         printf("%c",tree->data) ;
+        displayNotLessThanValueInSortedValue(tree->left,value) ;
     }
-    displayNotLessThanValueInSortedValue(tree->left,value) ;
+    
 }
