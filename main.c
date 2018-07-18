@@ -18,8 +18,8 @@
 #include "RadixSort.h"
 
 
-#include "LCBXXZDChapterTenAlgorithmDesignEight.h"
-#include "LCBXXZDChapterTenAlgorithmDesignTen.h"
+#include "WDChapterSevenPracticeQuestionFour.h"
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -28,15 +28,15 @@ int main(int argc, const char * argv[]) {
     int array[] = {5,2,4,8,7,4,7,8,9,4,6,778,4,34,6} ;
 //    int array[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16} ;
 //    int array[] = {16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1};
-//    int info[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15} ;
+    int info[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15} ;
     SeqList list ;
-//    for (int i = 0; i<15; i++) {
-//        list[i].key = array[i] ;
-//        list[i].data[0] = info[i] ;
-//    }
+    for (int i = 0; i<15; i++) {
+        list[i].key = array[i] ;
+        list[i].data[0] = info[i] ;
+    }
 
 
-
+    printf("%d\n",findRankValueSmallElement(list, 15, 9).key);
 
     for (int i = 0; i<15; i++) {
         printf("%d ",list[i].key);
