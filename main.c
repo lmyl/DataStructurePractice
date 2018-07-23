@@ -8,35 +8,56 @@
 
 
 
-#include "LCBChapterElevenMachineExperimentTwo.h"
+#include "LCBChapterTwelveMachineExperimentTwo.h"
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
-
-    int array[] = {15,4,97,64,17,32,108,44,76,9,39,82,56,31,80,73,255,68} ;
-
-    SelectChangedSortResult result = selectChangedSort(array, 18, 5) ;
-
-    printf("%d\n",result.number) ;
-
-    for (int i = 0; i<result.number; i++) {
-        for (int j = 0; j<result.length[i]; j++) {
-            printf("%d  ",result.result[i][j]) ;
-        }
-        printf("\n");
+    StudentInformation student[MaxPeople] ;
+    if (/* DISABLES CODE */ (false)) {
+        StudentInformation one = {1,"陈华",20,1,78,90,84};
+        StudentInformation two = {5,"张明",21,1,78,68,92} ;
+        StudentInformation three = {8,"王英",20,-1,86,81,86};
+        StudentInformation four = {3,"刘丽",21,-1,78,92,88} ;
+        StudentInformation five = {2,"许可",20,1,80,83,78} ;
+        StudentInformation six = {4,"陈军",20,1,78,88,82} ;
+        StudentInformation seven = {7 , "马胜",21,1,56,67,75} ;
+        StudentInformation eight = {6 , "曾强",20,1,78,89,82} ;
+        
+        student[0] = one ;
+        student[1] = two ;
+        student[2] = three ;
+        student[3] = four ;
+        student[4] = five ;
+        student[5] = six ;
+        student[6] = seven ;
+        student[7] = eight ;
+        
+        writeFileFromArray(student, 8);
+    }else{
+        FILE * file = fopen("/Users/ly/Documents/私人文件/数据结构/DataStructurePractice/DataStructurePractice/LCB/LCBChapterTwelve/MachineExperiment/stud.dat", "rb") ;
+        int count = 0 ;
+        writeArrayFromFile(file, student, &count) ;
+        printf("%d\n",count);
     }
-
-    LoserTreeResult sort = loserTree(result) ;
+    StudentAvergaeInformation studentBase[MaxPeople] ;
+    slovingAverageGrade(student, 8, studentBase) ;
+    sortByAverageInStudentAvergaeInformation(studentBase, 8) ;
+    if (/* DISABLES CODE */ (false)) {
+        writeFileFromStudentAvergaeInformationArray(studentBase, 8) ;
+    }else{
+        FILE * file = fopen("/Users/ly/Documents/私人文件/数据结构/DataStructurePractice/DataStructurePractice/LCB/LCBChapterTwelve/MachineExperiment/studTwo.dat", "rb") ;
+        int count = 0 ;
+        writeStudentAvergaeInformationArrayFromFile(file, studentBase,&count ) ;
+        printf("%d\n",count);
+    }
+    FILE * file = fopen("/Users/ly/Documents/私人文件/数据结构/DataStructurePractice/DataStructurePractice/LCB/LCBChapterTwelve/MachineExperiment/stud.dat", "rb") ;
+    creatStudentInformationIndexFile(student, 8) ;
+    FILE * indexFile = fopen("/Users/ly/Documents/私人文件/数据结构/DataStructurePractice/DataStructurePractice/LCB/LCBChapterTwelve/MachineExperiment/studIndex.dat", "rb") ;
+    StudentInformation search = searchStudentInformationByStudentNumber(file, indexFile, 8) ;
+    printf("%d\n",search.math) ;
     
-
-    for (int i = 0 ; i<sort.length; i++) {
-        printf("%d  ",sort.result[i] );
-    }
-    printf("\n");
-
-
     return 0;
 } 
 
