@@ -549,6 +549,7 @@
 		081C15C520BEE95F0082D9BD /* LCBXXZDChapterFourAlgorithmDesignFive.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBXXZDChapterFourAlgorithmDesignFive.c; sourceTree = "<group>"; };
 		081C33D320E5255C00B5917C /* LCBXXZDChapterSevenAlgorithmDesignThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBXXZDChapterSevenAlgorithmDesignThree.h; sourceTree = "<group>"; };
 		081C33D420E5255C00B5917C /* LCBXXZDChapterSevenAlgorithmDesignThree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBXXZDChapterSevenAlgorithmDesignThree.c; sourceTree = "<group>"; };
+		081EA3B721060F9B0005D8CB /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		081F4FF120AC20160003E618 /* LCBChapterTwoMachineExperimentSix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterTwoMachineExperimentSix.h; sourceTree = "<group>"; };
 		081F4FF220AC20160003E618 /* LCBChapterTwoMachineExperimentSix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCBChapterTwoMachineExperimentSix.c; sourceTree = "<group>"; };
 		081F4FF420AC2BAF0003E618 /* LCBChapterTwoMachineExperimentSeven.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBChapterTwoMachineExperimentSeven.h; sourceTree = "<group>"; };
@@ -2384,6 +2385,7 @@
 		088FA6B9206A057B007D71C6 = {
 			isa = PBXGroup;
 			children = (
+				081EA3B721060F9B0005D8CB /* ReadMe.md */,
 				088FA6C5206A057B007D71C6 /* main.c */,
 				088FA6C4206A057B007D71C6 /* DataStructurePractice */,
 				088FA6C3206A057B007D71C6 /* Products */,
