@@ -2005,8 +2005,7 @@
 				085C180D20F9F81900EA4C03 /* PracticeQuestion */,
 				085C181720FA11BE00EA4C03 /* MachineExperiment */,
 			);
-			name = LCBChapterNine;
-			path = "New Group";
+			path = LCBChapterNine;
 			sourceTree = "<group>";
 		};
 		0846A0FB20F97C5E0035CD2C /* Example */ = {
